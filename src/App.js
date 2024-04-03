@@ -1,24 +1,34 @@
-import logo from './logo.svg';
 import './App.css';
+import { BrowserRouter as Router } from "react-router-dom";
+import Navbar from './components/Nav';
+import styled from 'styled-components';
+import ImageSlider from './components/Hero';
+import HonorsLogo1 from './images/hero.jpg';
+import HonorsLogo2 from './images/hero.jpg';
+import HonorsLogo3 from './images/hero.jpg';
+
+const Body = styled.div`
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+`;
+
+const images = [
+  HonorsLogo1,
+  HonorsLogo2,
+  HonorsLogo3,
+  // Add more image imports as needed
+];
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Body>
+        <Navbar />
+        <ImageSlider images={images} />
+      </Body>
+    </Router>
   );
 }
 
