@@ -8,6 +8,7 @@ import HonorsLogo2 from './images/hero.jpg';
 import HonorsLogo3 from './images/hero.jpg';
 import Roster from './components/RosterPage/components/Roster';
 import RosterFinal from './components/RosterPage';
+import LibraryFinal from './components/LibraryPage';
 
 const Body = styled.div`
   background-color: white;
@@ -30,6 +31,7 @@ function App() {
         <Navbar />
         {/* <ImageSlider images={images} /> */}
         <RosterFinal />
+        {/* <LibraryFinal/>  */}
       </Body>
     </Router>
   );

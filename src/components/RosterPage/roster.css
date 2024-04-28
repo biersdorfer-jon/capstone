@@ -1,0 +1,20 @@
+.shape-bottom {
+    position: static;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.shape-bottom svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 107px;
+}
+
+.shape-bottom .shape-fill {
+    fill: #BA0C2F;
+}
