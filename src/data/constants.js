@@ -788,7 +788,10 @@ export const bookCollection = [
             "Creativity and Freedom",
             "Truth",
         ],
-        students: [],
+        students: [
+            "Hello",
+            "Hola",
+        ],
         image: "Room-Virginia.jpg",
     },
     {
@@ -797,11 +800,14 @@ export const bookCollection = [
         author: "Ray Bradbury",
         year: "1953",
         themes: [
-            "Censorship and Suppression of Knowledge",
+            "Censorship",
             "Conformity and Individuality",
-            "Importance of Literature and Intellectual Freedom"
+            "Action vs. Inaction",
         ],
-        students: [],
+        students: [
+            "Jon B.",
+            "Luke B.",
+        ],
         image: "Fahrenheit451.jpg",
     },
     {
@@ -810,116 +816,116 @@ export const bookCollection = [
         author: "Kurt Vonnegut",
         year: "1963",
         themes: [
-            "Science and Technology",
-            "Religion and Belief Systems",
-            "Humanity's Responsibility for the Future"
+            "Science and Morality",
+            "Religion",
+            ""
         ],
         students: [],
         image: "CatsCradle.jpg",
     },
-    {
-        id: 4,
-        title: "The Awakening",
-        author: "Kate Chopin",
-        year: "1899",
-        themes: [
-            "Gender Roles and Identity",
-            "Freedom and Self-discovery",
-            "Social Constraints and Expectations"
-        ],
-        students: [],
-        image: "Awakening.jpg",
-    },
-    {
-        id: 5,
-        title: "The Bell Jar",
-        author: "Sylvia Plath",
-        year: "1963",
-        themes: [
-            "Mental Illness and Identity",
-            "Societal Expectations and Pressures",
-            "The Search for Self and Authenticity"
-        ],
-        students: [],
-        image: "Bell.jpg",
-    },
-    {
-        id: 6,
-        title: "Deacon King Kong",
-        author: "James McBride",
-        year: "2020",
-        themes: [
-            "Community and Identity",
-            "Redemption and Forgiveness",
-            "Legacy and Change"
-        ],
-        students: [],
-        image: "Deacon.jpg",
-    },
-    {
-        id: 7,
-        title: "Educated",
-        author: "Tara Westover",
-        year: "2018",
-        themes: [
-            "Education and Empowerment",
-            "Family Dynamics and Relationships",
-            "Identity and Self-Discovery"
-        ],
-        students: [],
-        image: "Educated.jpg",
-    },
-    {
-        id: 9,
-        title: "Hamnet",
-        author: "Maggie O'Farrell",
-        year: "2020",
-        themes: [
-            "Family and Loss",
-            "Art and Creativity",
-            "Historical Fiction and Speculation"
-        ],
-        students: [],
-        image: "Hamnet.jpg",
-    },
-    {
-        id: 10,
-        title: "Hillbilly Elegy",
-        author: "J.D. Vance",
-        year: "2016",
-        themes: [
-            "Rural Poverty and Economic Struggles",
-            "Family and Identity",
-            "Social Mobility and Class Divide"
-        ],
-        students: [],
-        image: "HillBilly.jpg",
-    },
-    {
-        id: 11,
-        title: "The Last Lecture",
-        author: "Randy Pausch",
-        year: "2008",
-        themes: [
-            "Life Lessons and Legacy",
-            "Achieving Dreams and Goals",
-            "Facing Adversity with Resilience"
-        ],
-        students: [],
-        image: "Lecture.jpg",
-    },
-    {
-        id: 12,
-        title: "Maus",
-        author: "Art Spiegelman",
-        year: "1986",
-        themes: [
-            "Holocaust and Memory",
-            "Survival and Resilience",
-            "Father-Son Relationships"
-        ],
-        students: [],
-        image: "Maus.jpg",
-    }
-];
+//     {
+//         id: 4,
+//         title: "The Awakening",
+//         author: "Kate Chopin",
+//         year: "1899",
+//         themes: [
+//             "Gender Roles and Identity",
+//             "Freedom and Self-discovery",
+//             "Social Constraints and Expectations"
+//         ],
+//         students: [],
+//         image: "Awakening.jpg",
+//     },
+//     {
+//         id: 5,
+//         title: "The Bell Jar",
+//         author: "Sylvia Plath",
+//         year: "1963",
+//         themes: [
+//             "Mental Illness and Identity",
+//             "Societal Expectations and Pressures",
+//             "The Search for Self and Authenticity"
+//         ],
+//         students: [],
+//         image: "Bell.jpg",
+//     },
+//     {
+//         id: 6,
+//         title: "Deacon King Kong",
+//         author: "James McBride",
+//         year: "2020",
+//         themes: [
+//             "Community and Identity",
+//             "Redemption and Forgiveness",
+//             "Legacy and Change"
+//         ],
+//         students: [],
+//         image: "Deacon.jpg",
+//     },
+//     {
+//         id: 7,
+//         title: "Educated",
+//         author: "Tara Westover",
+//         year: "2018",
+//         themes: [
+//             "Education and Empowerment",
+//             "Family Dynamics and Relationships",
+//             "Identity and Self-Discovery"
+//         ],
+//         students: [],
+//         image: "Educated.jpg",
+//     },
+//     {
+//         id: 9,
+//         title: "Hamnet",
+//         author: "Maggie O'Farrell",
+//         year: "2020",
+//         themes: [
+//             "Family and Loss",
+//             "Art and Creativity",
+//             "Historical Fiction and Speculation"
+//         ],
+//         students: [],
+//         image: "Hamnet.jpg",
+//     },
+//     {
+//         id: 10,
+//         title: "Hillbilly Elegy",
+//         author: "J.D. Vance",
+//         year: "2016",
+//         themes: [
+//             "Rural Poverty and Economic Struggles",
+//             "Family and Identity",
+//             "Social Mobility and Class Divide"
+//         ],
+//         students: [],
+//         image: "HillBilly.jpg",
+//     },
+//     {
+//         id: 11,
+//         title: "The Last Lecture",
+//         author: "Randy Pausch",
+//         year: "2008",
+//         themes: [
+//             "Life Lessons and Legacy",
+//             "Achieving Dreams and Goals",
+//             "Facing Adversity with Resilience"
+//         ],
+//         students: [],
+//         image: "Lecture.jpg",
+//     },
+//     {
+//         id: 12,
+//         title: "Maus",
+//         author: "Art Spiegelman",
+//         year: "1986",
+//         themes: [
+//             "Holocaust and Memory",
+//             "Survival and Resilience",
+//             "Father-Son Relationships"
+//         ],
+//         students: [],
+//         image: "Maus.jpg",
+//     }
+    ];
 

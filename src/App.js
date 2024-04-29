@@ -1,14 +1,14 @@
 import './App.css';
-import { BrowserRouter as Router } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Navbar from './components/Nav';
 import styled from 'styled-components';
 import ImageSlider from './components/Hero';
+import RosterFinal from './components/RosterPage';
+import LibraryFinal from './components/LibraryPage';
+import HomeFinal from './components/Home';
 import HonorsLogo1 from './images/hero.jpg';
 import HonorsLogo2 from './images/hero.jpg';
 import HonorsLogo3 from './images/hero.jpg';
-import Roster from './components/RosterPage/components/Roster';
-import RosterFinal from './components/RosterPage';
-import LibraryFinal from './components/LibraryPage';
 
 const Body = styled.div`
   background-color: white;
@@ -29,9 +29,19 @@ function App() {
     <Router>
       <Body>
         <Navbar />
+        {/* Define routes for each page */}
+        <Routes>
+          {/* Route for Home */}
+          <Route path='/' element={<HomeFinal/>} />
+
+          {/* Route for RosterFinal */}
+          <Route path='/roster' element={<RosterFinal/>} />
+
+          {/* Route for LibraryFinal */}
+          <Route path='/library' element={<LibraryFinal/>} />
+
+        </Routes>
         {/* <ImageSlider images={images} /> */}
-        <RosterFinal />
-        {/* <LibraryFinal/>  */}
       </Body>
     </Router>
   );

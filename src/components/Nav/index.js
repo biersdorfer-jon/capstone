@@ -187,9 +187,9 @@ const Nav = () => {
                 <LogoContainer>
                     <Logo src={LogoSVG} />                </LogoContainer>
                 <NavItems>
-                    <Tags href='#home'>Home</Tags>
-                    <Tags href='#team'>Roster</Tags>
-                    <Tags href='#library'>Library</Tags>
+                    <Tags href='/'>Home</Tags>
+                    <Tags href='/roster'>Roster</Tags>
+                    <Tags href='/library'>Library</Tags>
                 </NavItems>
                 <div id="myNav" className="overlay">
                     <a style={{ cursor: 'pointer' }} className="closebtn" onClick={closeNav}>&times;</a>
