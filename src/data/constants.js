@@ -71,24 +71,24 @@ export const house = [
     //     "city": "Tuttle, OK",
     //     "image": "SBase-min.jpg"
     // },
-    // {
-    //     "id": 9,
-    //     "name": "Jon Biersdorfer",
-    //     "year": "Senior",
-    //     "major": "Business Administration",
-    //     "book": "Moby Dick",
-    //     "city": "Miami, FL",
-    //     "image": "Prac.jpg"
-    // },
-    // {
-    //     "id": 10,
-    //     "name": "Luke Biersdorfer",
-    //     "year": "Freshman",
-    //     "major": "Environmental Science",
-    //     "book": "The Odyssey",
-    //     "city": "Denver, CO",
-    //     "image": "Prac.jpg"
-    // },
+    {
+        "id": 9,
+        "name": "Jon Biersdorfer",
+        "year": "Senior",
+        "major": "Multimedia and Software Development",
+        "book": "Lament for a Son by Nicholas Wolterstorff",
+        "city": "Bixby, OK",
+        "image": "Prac.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Luke Biersdorfer",
+        "year": "Sophomore",
+        "major": "International Relations",
+        "book": "The Stranger by Albert Camus",
+        "city": "Bixby, OK",
+        "image": "Prac.jpg"
+    },
     // {
     //     "id": 11,
     //     "name": "Dawson Birky",
@@ -98,15 +98,15 @@ export const house = [
     //     "city": "Austin, TX",
     //     "image": "Prac.jpg"
     // },
-    // {
-    //     "id": 12,
-    //     "name": "Kaylee Blair",
-    //     "year": "Senior",
-    //     "major": "Physics",
-    //     "book": "Brave New World",
-    //     "city": "Phoenix, AZ",
-    //     "image": "Prac.jpg"
-    // },
+    {
+        "id": 12,
+        "name": "Kaylee Blair",
+        "year": "Junior",
+        "major": "English",
+        "book": "Either/Or by Elif Batuman",
+        "city": "Owasso, OK",
+        "image": "Kaylee.jpeg"
+    },
     {
         "id": 13,
         "name": "Allison Bradfield",
@@ -125,15 +125,15 @@ export const house = [
         "city": "Glencoe, OK",
         "image": "CBrewster-min.jpg"
     },
-    // {
-    //     "id": 15,
-    //     "name": "Ben Brown",
-    //     "year": "Sophomore",
-    //     "major": "Criminal Justice",
-    //     "book": "The Hobbit",
-    //     "city": "Atlanta, GA",
-    //     "image": "Prac.jpg"
-    // },
+    {
+        "id": 15,
+        "name": "Ben Brown",
+        "year": "Junior",
+        "major": "Multimedia and Software Development",
+        "book": "Maus by Art Spiegelman",
+        "city": "Owasso, OK",
+        "image": "Ben.jpeg"
+    },
     {
         "id": 16,
         "name": "Tatum Brown",
@@ -215,15 +215,15 @@ export const house = [
         "city": "Meeker, OK",
         "image": "CCozart-min.jpeg"
     },
-    // {
-    //     "id": 25,
-    //     "name": "Joshua Dahl",
-    //     "year": "Junior",
-    //     "major": "Nursing",
-    //     "book": "Great Expectations",
-    //     "city": "Albuquerque, NM",
-    //     "image": "Prac.jpg"
-    // },
+    {
+        "id": 25,
+        "name": "Josh Dahl",
+        "year": "Senior",
+        "major": "Network Administration",
+        "book": "The Midnight Library by Matt Haig",
+        "city": "Ohio",
+        "image": "Josh.jpg"
+    },
     // {
     //     "id": 27,
     //     "name": "Bradey Despain",
@@ -233,6 +233,15 @@ export const house = [
     //     "city": "Boise, ID",
     //     "image": "Prac.jpg"
     // },
+    {
+        "id": 110,
+        "name": "Gracelyn Dill",
+        "year": "Junior",
+        "major": "Community Counseling",
+        "book": "The Stranger by Albert Camus",
+        "city": "Owasso, OK",
+        "image": "Gracie.jpeg"
+    },
     // {
     //     "id": 28,
     //     "name": "Tyler Dill",
@@ -296,6 +305,15 @@ export const house = [
     //     "city": "New Orleans, LA",
     //     "image": "Prac.jpg"
     // },
+    {
+        "id": 111,
+        "name": "Gunner Evans",
+        "year": "Junior",
+        "major": "Accounting",
+        "book": "Maus by Art Spiegelman",
+        "city": "Cushing, OK",
+        "image": "Gunner.jpeg"
+    },
     {
         "id": 35,
         "name": "Anna Fails",
@@ -377,15 +395,15 @@ export const house = [
     //     "city": "Boston, MA",
     //     "image": "Prac.jpg"
     // },
-    // {
-    //     "id": 44,
-    //     "name": "Ashleigh Harris",
-    //     "year": "Senior",
-    //     "major": "Chemistry",
-    //     "book": "War and Peace",
-    //     "city": "Atlanta, GA",
-    //     "image": "Prac.jpg"
-    // },
+    {
+        "id": 44,
+        "name": "Ashleigh Harris",
+        "year": "Junior",
+        "major": "English",
+        "book": "Conversations with Friends by Sally Rooney",
+        "city": "Claremore, OK",
+        "image": "AshleighH.jpeg"
+    },
     // {
     //     "id": 45,
     //     "name": "Evan Heiden",
@@ -397,7 +415,7 @@ export const house = [
     // },
     {
         "id": 46,
-        "name": "Nathan Hernandez - Pedophile",
+        "name": "Nathan Hernandez",
         "year": "Sophomore",
         "major": "Sports Management",
         "book": "The Stranger by Albert Camus",
@@ -485,15 +503,15 @@ export const house = [
         "city": "Portland, OR",
         "image": "EKelley-min.jpeg"
         },
-    //     {
-    //     "id": 56,
-    //     "name": "Grace Kreps",
-    //     "year": "Senior",
-    //     "major": "Computer Engineering",
-    //     "book": "The Catcher in the Rye",
-    //     "city": "Seattle, WA",
-    //     "image": "Prac.jpg"
-    //     },
+        {
+        "id": 56,
+        "name": "Grace Kreps",
+        "year": "Freshman",
+        "major": "Medical/Molecular Biology",
+        "book": "The Awakening by Kate Chapin",
+        "city": "Claremore, OK",
+        "image": "GraceK.jpeg"
+        },
         {
         "id": 57,
         "name": "Miranda Lewis",
@@ -503,15 +521,15 @@ export const house = [
         "city": "Dewey, OK",
         "image": "MLewis-min.jpeg"
         },
-        // {
-        // "id": 58,
-        // "name": "Tori McAllister",
-        // "year": "Freshman",
-        // "major": "History",
-        // "book": "Pride and Prejudice",
-        // "city": "San Francisco, CA",
-        // "image": "Prac.jpg"
-        // },
+        {
+        "id": 58,
+        "name": "Tori McAllister",
+        "year": "Senior",
+        "major": "Psychology",
+        "book": "The Big Sleep by Raymond Chandler",
+        "city": "Sand Springs, OK",
+        "image": "Tori.jpeg"
+        },
         {
         "id": 59,
         "name": "Jensyn McCain",
@@ -638,24 +656,24 @@ export const house = [
     //     "city": "Portland, OR",
     //     "image": "Prac.jpg"
     //     },
-    //     {
-    //     "id": 72,
-    //     "name": "Mackenzie Seay",
-    //     "year": "Senior",
-    //     "major": "Computer Engineering",
-    //     "book": "The Catcher in the Rye",
-    //     "city": "Seattle, WA",
-    //     "image": "Prac.jpg"
-    //     },
-    //     {
-    //     "id": 73,
-    //     "name": "Melanie Snyder",
-    //     "year": "Junior",
-    //     "major": "English Literature",
-    //     "book": "1984",
-    //     "city": "New York, NY",
-    //     "image": "Prac.jpg"
-    //     },
+        {
+        "id": 72,
+        "name": "Mackenzie Seay",
+        "year": "Freshman",
+        "major": "Medical/Molecular Biology",
+        "book": "Fahrenheit 451 by Ray Bradbury",
+        "city": "Owasso, OK",
+        "image": "Seay.jpeg"
+        },
+        {
+        "id": 73,
+        "name": "Melanie Snyder",
+        "year": "Senior",
+        "major": "Psychology",
+        "book": "Pride and Prejudice by Jane Austen",
+        "city": "Claremore, OK",
+        "image": "Melanie.jpeg"
+        },
     //     {
     //     "id": 74,
     //     "name": "Carleigh Stallcup",
@@ -728,15 +746,15 @@ export const house = [
     //     "city": "New York, NY",
     //     "image": "Prac.jpg"
     //     },
-    //     {
-    //     "id": 82,
-    //     "name": "Avery Welch",
-    //     "year": "Freshman",
-    //     "major": "Chemistry",
-    //     "book": "Pride and Prejudice",
-    //     "city": "San Francisco, CA",
-    //     "image": "Prac.jpg"
-    //     },
+        {
+        "id": 82,
+        "name": "Avery Welch",
+        "year": "Junior",
+        "major": "Graphic Design",
+        "book": "The Midnight Library by Matt Haig",
+        "city": "Inola, OK",
+        "image": "Welch.jpeg"
+        },
         {
         "id": 83,
         "name": "Brody White",
@@ -789,8 +807,7 @@ export const bookCollection = [
             "Truth",
         ],
         students: [
-            "Hello",
-            "Hola",
+            "Lilly Wash"
         ],
         image: "Room-Virginia.jpg",
     },
@@ -818,114 +835,255 @@ export const bookCollection = [
         themes: [
             "Science and Morality",
             "Religion",
-            ""
+            "Destiny",
         ],
         students: [],
         image: "CatsCradle.jpg",
     },
-//     {
-//         id: 4,
-//         title: "The Awakening",
-//         author: "Kate Chopin",
-//         year: "1899",
-//         themes: [
-//             "Gender Roles and Identity",
-//             "Freedom and Self-discovery",
-//             "Social Constraints and Expectations"
-//         ],
-//         students: [],
-//         image: "Awakening.jpg",
-//     },
-//     {
-//         id: 5,
-//         title: "The Bell Jar",
-//         author: "Sylvia Plath",
-//         year: "1963",
-//         themes: [
-//             "Mental Illness and Identity",
-//             "Societal Expectations and Pressures",
-//             "The Search for Self and Authenticity"
-//         ],
-//         students: [],
-//         image: "Bell.jpg",
-//     },
-//     {
-//         id: 6,
-//         title: "Deacon King Kong",
-//         author: "James McBride",
-//         year: "2020",
-//         themes: [
-//             "Community and Identity",
-//             "Redemption and Forgiveness",
-//             "Legacy and Change"
-//         ],
-//         students: [],
-//         image: "Deacon.jpg",
-//     },
-//     {
-//         id: 7,
-//         title: "Educated",
-//         author: "Tara Westover",
-//         year: "2018",
-//         themes: [
-//             "Education and Empowerment",
-//             "Family Dynamics and Relationships",
-//             "Identity and Self-Discovery"
-//         ],
-//         students: [],
-//         image: "Educated.jpg",
-//     },
-//     {
-//         id: 9,
-//         title: "Hamnet",
-//         author: "Maggie O'Farrell",
-//         year: "2020",
-//         themes: [
-//             "Family and Loss",
-//             "Art and Creativity",
-//             "Historical Fiction and Speculation"
-//         ],
-//         students: [],
-//         image: "Hamnet.jpg",
-//     },
-//     {
-//         id: 10,
-//         title: "Hillbilly Elegy",
-//         author: "J.D. Vance",
-//         year: "2016",
-//         themes: [
-//             "Rural Poverty and Economic Struggles",
-//             "Family and Identity",
-//             "Social Mobility and Class Divide"
-//         ],
-//         students: [],
-//         image: "HillBilly.jpg",
-//     },
-//     {
-//         id: 11,
-//         title: "The Last Lecture",
-//         author: "Randy Pausch",
-//         year: "2008",
-//         themes: [
-//             "Life Lessons and Legacy",
-//             "Achieving Dreams and Goals",
-//             "Facing Adversity with Resilience"
-//         ],
-//         students: [],
-//         image: "Lecture.jpg",
-//     },
-//     {
-//         id: 12,
-//         title: "Maus",
-//         author: "Art Spiegelman",
-//         year: "1986",
-//         themes: [
-//             "Holocaust and Memory",
-//             "Survival and Resilience",
-//             "Father-Son Relationships"
-//         ],
-//         students: [],
-//         image: "Maus.jpg",
-//     }
+    {
+        id: 4,
+        title: "The Awakening",
+        author: "Kate Chopin",
+        year: "1899",
+        themes: [
+            "Isolation",
+            "Identity",
+            "Depression"
+        ],
+        students: [
+            "Ashleigh Ross",
+        ],
+        image: "Awakening.jpg",
+    },
+    {
+        id: 5,
+        title: "The Bell Jar",
+        author: "Sylvia Plath",
+        year: "1963",
+        themes: [
+            "Mental Illness",
+            "Female Sexuality",
+            "Self-Discovery"
+        ],
+        students: [
+            "Grace Anderson"
+        ],
+        image: "Bell.jpg",
+    },
+    {
+        id: 6,
+        title: "Deacon King Kong",
+        author: "James McBride",
+        year: "2020",
+        themes: [
+            "Race and Identity",
+            "Community Resilience",
+            "Redemption and Forgiveness"
+        ],
+        students: [
+            "Josie Gaither",
+        ],
+        image: "Deacon.jpg",
+    },
+    {
+        id: 7,
+        title: "Educated",
+        author: "Tara Westover",
+        year: "2018",
+        themes: [
+            "Education and Empowerment",
+            "Family",
+            "Identity and Self-Discovery"
+        ],
+        students: [
+            "Elizabeth Rodriguez",
+            "Jensyn McCain",
+        ],
+        image: "Educated.jpg",
+    },
+    {
+        id: 9,
+        title: "Hamnet",
+        author: "Maggie O'Farrell",
+        year: "2020",
+        themes: [
+            "Family Dynamics",
+            "Grief and Loss",
+            "Motherhood"
+        ],
+        students: [
+            "Olivia Graham",
+        ],
+        image: "Hamnet.jpg",
+    },
+    {
+        id: 10,
+        title: "Hillbilly Elegy",
+        author: "J.D. Vance",
+        year: "2016",
+        themes: [
+            "Culture and Community",
+            "Family and Identity",
+            "Socioeconomic Mobility"
+        ],
+        students: [
+            "Aidan Williams",
+        ],
+        image: "HillBilly.jpg",
+    },
+    {
+        id: 11,
+        title: "The Last Lecture",
+        author: "Randy Pausch",
+        year: "2008",
+        themes: [
+            "Appreciation",
+            "Legacy and Impact",
+            "Self-Discovery",
+            
+            
+        ],
+        students: [
+            "Matthew Garrison",
+        ],
+        image: "Lecture.jpg",
+    },
+    {
+        id: 12,
+        title: "Maus",
+        author: "Art Spiegelman",
+        year: "1986",
+        themes: [
+            "Trauma and Memory",
+            "Survival",
+            "Generational Relationships"
+        ],
+        students: [
+            
+        ],
+        image: "Maus.jpg",
+    },
+    {
+        id: 13,
+        title: "The Midnight Library",
+        author: "Matt Haig",
+        year: "2020",
+        themes: [
+            "Trauma and Memory",
+            "Survival",
+            "Generational Relationships"
+        ],
+        students: [
+            
+        ],
+        image: "MidnightLibrary.jpg",
+    },
+    {
+        id: 14,
+        title: "Normal People",
+        author: "Sally Rooney",
+        year: "2018",
+        themes: [
+            "Trauma and Memory",
+            "Survival",
+            "Generational Relationships"
+        ],
+        students: [
+            
+        ],
+        image: "Nomal.jpg",
+    },
+    {
+        id: 15,
+        title: "Pride and Prejudice",
+        author: "Jane Austen",
+        year: "1813",
+        themes: [
+            "Trauma and Memory",
+            "Survival",
+            "Generational Relationships"
+        ],
+        students: [
+            
+        ],
+        image: "Pride.jpg",
+    },
+    {
+        id: 16,
+        title: "Rebecca",
+        author: "Daphne de Maurier",
+        year: "1938",
+        themes: [
+            "Trauma and Memory",
+            "Survival",
+            "Generational Relationships"
+        ],
+        students: [
+            
+        ],
+        image: "Rebecca.jpg",
+    },
+    {
+        id: 17,
+        title: "The Road",
+        author: "Cormac McCarthy",
+        year: "2006",
+        themes: [
+            "Trauma and Memory",
+            "Survival",
+            "Generational Relationships"
+        ],
+        students: [
+            
+        ],
+        image: "Road.jpg",
+    },
+    {
+        id: 18,
+        title: "Siddhartha",
+        author: "Herman Heese",
+        year: "1922",
+        themes: [
+            "Trauma and Memory",
+            "Survival",
+            "Generational Relationships"
+        ],
+        students: [
+            
+        ],
+        image: "Siddhartha.jpg",
+    },
+    {
+        id: 19,
+        title: "The Big Sleep",
+        author: "Raymond Chandler",
+        year: "1939",
+        themes: [
+            "Trauma and Memory",
+            "Survival",
+            "Generational Relationships"
+        ],
+        students: [
+            
+        ],
+        image: "Sleep.jpg",
+    },
+    {
+        id: 20,
+        title: "The Stranger",
+        author: "Albert Camus",
+        year: "1942",
+        themes: [
+            "Trauma and Memory",
+            "Survival",
+            "Generational Relationships"
+        ],
+        students: [
+            
+        ],
+        image: "Sleep.jpg",
+    },
+    
+
     ];
 

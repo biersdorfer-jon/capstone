@@ -1,4 +1,4 @@
-import React from 'react';
+import { React, useState, useEffect} from 'react';
 import styled from 'styled-components';
 import { bookCollection } from '../../../../data/constants';
 
@@ -6,17 +6,15 @@ const Card = styled.div`
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    //padding: 15px 15px 8px 15px;
     width: 450px;
-    height: 320px;
     background-color: white;
-    //box-shadow: 0 0 12px 4px rgba(0, 0, 0, 0.4);
     overflow: hidden;
     margin: 10px;
     border-radius: 10px;
     border: 1px solid #ddd;
     flex-direction: row;
     transition: all ease-in-out 0.3s;
+    height: ${({ cardHeight }) => cardHeight}px; /* Set height dynamically */
 
     &:hover {
         transform: scale(1.05);
@@ -50,6 +48,15 @@ const TitleC = styled.div`
     justify-content: center;
     align-items: center;
     width: 100%;
+`;
+
+const Fav = styled.div`
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 5px;
 `;
 
 const TitleC2 = styled.div`
@@ -107,39 +114,44 @@ const Themes = styled.div`
 const Year = styled.div``;
 
 const LibraryCard = ({ book }) => {
+    const [cardHeight, setCardHeight] = useState(0);
+
+    const handleImageLoad = (event) => {
+        setCardHeight(event.target.height);
+    };
+
     return (
-        <Card>
+        <Card cardHeight={cardHeight}>
             <Left>
-                <Image src={require(`../../../../images/${book.image}`)} alt={`${book.title} Cover`} />
+                <Image src={require(`../../../../images/${book.image}`)} alt={`${book.title} Cover`} onLoad={handleImageLoad} />
             </Left>
             <Right>
-                <TitleC><Title>{book.title}</Title>
+                <TitleC style={{marginTop: "-5px"}}><Title>{book.title}</Title>
                 </TitleC>
                 <TitleC2>
                     <Label>Author: </Label>
                     <Author>{book.author}</Author>
                 </TitleC2>
                 <TitleC2>
-                    <Label>
-                        Year Published:
-                    </Label>
+                    <Label>Year Published:</Label>
                     <Year>{book.year}</Year>
                 </TitleC2>
                 <TitleC2>
-                    <Label>Key Themes: </Label>
-                    {book.themes.map((themes) => (
-                <Themes key={themes}>{themes}</Themes>
-            ))}
+                    <Label style={{textDecoration: "underline"}}>Key Themes</Label>
+                    
+                        {book.themes.map((theme, index) => (
+                           <Themes key={index}>{theme}</Themes>
+                        ))}
+                    
                 </TitleC2>
-                <TitleC>
+                <Fav>
                     <Label>Favorited by</Label>
-                </TitleC>
+                </Fav>
                 <Tags>
-                    {book.students.map((students) => (
-                <Tag key={students}>{students}</Tag>
-            ))}
+                    {book.students.map((student, index) => (
+                        <Tag key={index}>{student}</Tag>
+                    ))}
                 </Tags>
-
             </Right>
         </Card>
     );
