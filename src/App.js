@@ -9,6 +9,7 @@ import HomeFinal from './components/Home';
 import HonorsLogo1 from './images/hero.jpg';
 import HonorsLogo2 from './images/hero.jpg';
 import HonorsLogo3 from './images/hero.jpg';
+import Footer from './components/Footer';
 
 const Body = styled.div`
   background-color: white;
@@ -42,6 +43,7 @@ function App() {
 
         </Routes>
         {/* <ImageSlider images={images} /> */}
+        <Footer/>
       </Body>
     </Router>
   );
