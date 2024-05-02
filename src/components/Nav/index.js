@@ -52,6 +52,7 @@ const LogoContainer = styled.div`
     justify-content: end;
     width: 60%;
     padding: 0px 1px 0px;
+    
 
     @media (max-width: 1450px) {
         width: 40%;
@@ -63,7 +64,8 @@ const LogoContainer = styled.div`
 `;
 
 const Logo = styled.img`
-    width: 140px;
+    width: 120px;
+    margin-top: 15px;
     display: flex;
     cursor: pointer;
     text-decoration: none;

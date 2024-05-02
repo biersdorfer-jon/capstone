@@ -1085,7 +1085,7 @@ export const bookCollection = [
     },
     
 
-    ];
+];
 
 
     
@@ -1095,24 +1095,24 @@ export const officers =  [
             id: 1,
             name: "Jessica Hollingshead",
             pos: "President",
-            img: "Je",
+            img: "JHolling-min.jpeg",
         },
         {
             id: 2,
             name: "Audrey Fowler",
             pos: "Vice President",
-            img: "Je",
+            img: "AFowler-min.jpeg",
         },
         {
             id: 3,
             name: "Kali Cavin",
             pos: "Service Coordinator",
-            img: "Je",
+            img: "KCavin-min.jpeg",
         },
         {
             id: 4,
             name: "Terran Schornick",
             pos: "Secretary",
-            img: "Je",
+            img: "Terran.png",
         },
     ];

@@ -5,6 +5,8 @@ import LogoSVG from '../../images/footer_logo.svg';
 const Container = styled.div`
   width: 100%;
   display flex;
+  position: relative; /* Add position property */
+  z-index: 10;
 `;
 
 const RogersContainer = styled.div`
