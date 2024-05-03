@@ -4,6 +4,7 @@ import styled from 'styled-components'
 import RosterHeader from '../../images/Roster-Header.jpg';
 import './roster.css'
 import Ford from './components/Ford';
+import { CircularProgressBar } from "@tomickigrzegorz/react-circular-progress-bar";
 
 
 const Container = styled.div`
@@ -41,22 +42,68 @@ const Title = styled.div`
   font-weight: 800;
 `;
 
+const ProgressC = styled.div`
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+`;
+
+const CircleC = styled.div`
+  display: flex;
+  width: 150px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+`;
+
+const Sub = styled.div`
+font-weight: 600;
+font-size: 18px;
+`;
+
 
 
 
 const RosterFinal = () => {
   return (
     <Container>
-      {/* <BigImageContainer>
-        <ImageContainer>
-            <Image src={RosterHeader}/>
-        </ImageContainer>
-      </BigImageContainer> */}
+      <ProgressC>
+        <CircleC>
+        <CircularProgressBar
+    colorCircle="#e6e6e6"
+    colorSlice="#0c2340"
+    percent={21}
+    round
+    strokeBottom={5}
+    size= {120}
+    fontSize="1.4rem"
+    fontWeight= {800} 
+     />
+<Sub>Business</Sub>
+</CircleC>
+<CircleC>
+        <CircularProgressBar
+    colorCircle="#e6e6e6"
+    colorSlice="#0c2340"
+    percent={75}
+    round
+    strokeBottom={5}
+    size= {120}
+    fontSize="1.4rem"
+    fontWeight= {800} 
+     />
+<Sub>Business</Sub>
+</CircleC>
+      </ProgressC>
+      
     <TitleContainer>
     <svg height="45" width="15">
         <line x1="0" y1="0" x2="0" y2="55" style={{strokeWidth: 7, stroke: '#ba0c2f'}} />
       </svg>
               <Title>2023-2024 RSU Honors Roster</Title>
+              
     </TitleContainer>
         <Roster/>
         <br></br>
