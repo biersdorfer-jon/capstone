@@ -4,7 +4,7 @@ import styled from 'styled-components';
 
 
 const StyledLibrary = styled.div`
-    margin-top: 220px; /* Adjust the margin-top value as needed */
+    padding-top: 220px; /* Adjust the margin-top value as needed */
 `;
 
 const TitleContainer = styled.div`

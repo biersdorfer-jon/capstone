@@ -1135,7 +1135,7 @@ export const bookCollection = [
         themes: [
             "Trauma",
             "Family",
-            "Belonging and Assimilation"
+            "Belonging"
         ],
         students: [
             "Jessica H."

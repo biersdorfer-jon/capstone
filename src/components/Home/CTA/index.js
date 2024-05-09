@@ -10,7 +10,7 @@ const Container = styled.div`
  flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 350px;
+  margin-top: 50px;
   color: white;
   background-image: url(${backgroundImage});
   background-size: cover;

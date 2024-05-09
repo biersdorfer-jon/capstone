@@ -87,6 +87,9 @@ const HomeFinal = () => {
     <Container>
       <ImageSlider images={images} />
       <About />
+
+      <CTA />
+
       <TitleContainer>      
       <Title>Meet Your Honors Officers</Title>
       <svg height="45" width="300">
@@ -94,16 +97,12 @@ const HomeFinal = () => {
       </svg>
               
     </TitleContainer>
-      <SlideContainer>
+      <SlideContainer style={{marginBottom: '250px'}}>
         <LeftWhiteDiv />
         <Slide />
         <RightWhiteDiv />
-      </SlideContainer>
-      <CTA />
-      <div style={{ display: 'flex', justifyContent: 'center', paddingBottom: '50px', backgroundColor: 'transparent', marginTop: '500px'}}>
-        <InstagramEmbed style={{height: "470px", transform: 'scale(.8)'}} url="https://www.instagram.com/p/C2fqkQjvBEn/" width={328} />
-        
-      </div>
+      </SlideContainer >
+      
 
            </Container>
   );

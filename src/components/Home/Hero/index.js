@@ -16,7 +16,7 @@ const SliderWrapper = styled.div`
 
 const Slide = styled.img`
     width: 100%;
-    min-height: 400px; /* Fixed height */
+    min-height: 500px; /* Fixed height */
     object-fit: cover; /* Ensure the image covers the entire area */
 `;
 

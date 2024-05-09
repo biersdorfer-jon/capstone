@@ -73,6 +73,10 @@ const Label = styled.div`
     font-size: 16px;
     font-weight: 700;
     padding-right: 5px;
+
+    @media (max-width 500px) {
+        font-size: 12px;
+    }
 `;
 
 const Tags = styled.div`
@@ -95,6 +99,10 @@ const Tag = styled.div`
     color: white;
     padding: 2px 12px;
     border-radius: 15px;
+
+    @media (max-width 500px) {
+        font-size: 12px;
+    }
 `;
 
 const Title = styled.h2`
@@ -105,11 +113,20 @@ const Title = styled.h2`
 
 const Author = styled.div`
     
+
+    @media (max-width 500px) {
+        font-size: 12px;
+    }
+    
 `;
 
 const Themes = styled.div`
     display: flex;
     width: 100%;
+
+    @media (max-width 500px) {
+        font-size: 12px;
+    }
 `;
 
 const Year = styled.div``;

@@ -206,7 +206,7 @@ const Nav = () => {
                 <div id="myNav" className="overlay">
                     <a style={{ cursor: 'pointer', zIndex:"50" }} className="closebtn" onClick={closeNav}>&times;</a>
                     <div className="overlay-content">
-                        <a href="" onClick={closeNav}>Home</a>
+                        <a href="/" onClick={closeNav}>Home</a>
                         <a href="/roster" onClick={closeNav}>Roster</a>
                         <a href="/library" onClick={closeNav}>Library</a>
                     </div>
