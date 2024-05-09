@@ -37,6 +37,11 @@ const Title = styled.div`
     font-size: 20px;
     padding-top: 8px;
   }
+
+  @media (max-width: 400px) {
+    font-size: 17px;
+    padding-top: 8px;
+  }
 `;
 
 
