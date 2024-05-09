@@ -145,7 +145,7 @@ const RosterCard = ({ rosterItem }) => {
       <LocationContainer>
         <Bottom>
         <BookDes>Favorite Work Studied:</BookDes>
-        <Book>{`${rosterItem.book}`}</Book>
+        <Book href='/library'>{`${rosterItem.book}`}</Book>
         </Bottom>
       </LocationContainer>
       </DetailContainer>
