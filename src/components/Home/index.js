@@ -32,7 +32,12 @@ const SlideContainer = styled.div`
   position: relative;
   width: 100%; 
   height: 0px;/* Ensure it takes the full width of the parent */
-  margin-bottom: 100px; /* Add margin to push down the Instagram embed */
+  margin-bottom: 250px; /* Add margin to push down the Instagram embed */
+
+  @media (max-width: 450px) {
+    margin-bottom 300px;
+  }
+
 `;
 
 const WhiteDiv = styled.div`
@@ -67,6 +72,7 @@ const Title = styled.div`
   font-size: 30px;
   font-weight: 800;
   padding-bottom: 5px;
+  text-align: center;
 
 `;
 
@@ -97,7 +103,7 @@ const HomeFinal = () => {
       </svg>
               
     </TitleContainer>
-      <SlideContainer style={{marginBottom: '250px'}}>
+      <SlideContainer>
         <LeftWhiteDiv />
         <Slide />
         <RightWhiteDiv />

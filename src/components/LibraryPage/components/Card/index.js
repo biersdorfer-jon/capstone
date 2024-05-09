@@ -74,8 +74,8 @@ const Label = styled.div`
     font-weight: 700;
     padding-right: 5px;
 
-    @media (max-width 500px) {
-        font-size: 12px;
+    @media (max-width: 400px) {
+        font-size: 10px;
     }
 `;
 
@@ -100,8 +100,8 @@ const Tag = styled.div`
     padding: 2px 12px;
     border-radius: 15px;
 
-    @media (max-width 500px) {
-        font-size: 12px;
+    @media (max-width: 400px) {
+        font-size: 10px;
     }
 `;
 
@@ -109,13 +109,18 @@ const Title = styled.h2`
 
     text-align: center;
     color: #b10e27;
+
+    @media (max-width: 400px) {
+        margin-bottom: 5px;
+        font-size: 18px;
+      }
 `;
 
 const Author = styled.div`
-    
+    font-size: 16px;
 
-    @media (max-width 500px) {
-        font-size: 12px;
+    @media (max-width: 400px) {
+        font-size: 10px;
     }
     
 `;
@@ -124,12 +129,18 @@ const Themes = styled.div`
     display: flex;
     width: 100%;
 
-    @media (max-width 500px) {
-        font-size: 12px;
+    @media (max-width: 400px) {
+        font-size: 10px;
     }
 `;
 
-const Year = styled.div``;
+const Year = styled.div`
+font-size: 16px;
+
+    @media (max-width: 400px) {
+        font-size: 10px;
+    }
+    `;
 
 const LibraryCard = ({ book }) => {
     const [cardHeight, setCardHeight] = useState(0);

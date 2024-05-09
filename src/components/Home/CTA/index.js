@@ -78,6 +78,16 @@ const Text = styled.div`
     font-family: 'Yeserva One', sans-serif; /* Applying the specified font */
     text-align: center;
 
+    @media (max-width: 600px) {
+      font-size: 40px;
+    }
+
+    @media (max-width: 400px) {
+      font-size: 32px;
+    }
+
+    
+
 `;
 
 

@@ -101,7 +101,7 @@ const RosterFinal = () => {
   useEffect(() => {
     const handleResize = () => {
       const screenWidth = window.innerWidth;
-      const newIframeWidth = screenWidth <= 700 ? 400 : 640;
+      const newIframeWidth = screenWidth <= 700 ? 320 : 640;
       setIframeWidth(newIframeWidth);
     };
 
@@ -215,8 +215,8 @@ const RosterFinal = () => {
         <br></br>
         <br></br>
         <Center>
-        <svg height="45" width="500">
-        <line x1="0" y1="0" x2="500" y2="" style={{strokeWidth: 7, stroke: '#ba0c2f'}} />
+        <svg height="45" width="320">
+        <line x1="0" y1="0" x2="320" y2="" style={{strokeWidth: 7, stroke: '#ba0c2f'}} />
       </svg>
       <br></br>
         <br></br>
