@@ -224,6 +224,8 @@ const Nav = () => {
                         <a href="/" onClick={closeNav}>Home</a>
                         <a href="/roster" onClick={closeNav}>Roster</a>
                         <a href="/library" onClick={closeNav}>Library</a>
+                        <a href='https://www.instagram.com/rogers_state_honors/' style={{cursor: 'pointer' }}><FaInstagram  size={40} color='black' style={{marginTop: '30px'}}/>
+                        </a>
                     </div>
                 </div>
                 <span style={{ cursor: 'pointer', color:'white', position: 'absolute', top: '55px', right: '100px', transform: 'translateY(-50%)'}} onClick={openNav}>&#9776;</span>

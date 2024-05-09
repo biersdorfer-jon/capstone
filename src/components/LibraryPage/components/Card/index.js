@@ -154,7 +154,7 @@ const LibraryCard = ({ book }) => {
             return {
                 fontSize: "10px",
                 '@media (max-width: 400px)': {
-                    fontSize: "8px",
+                    fontSize: "5px",
                 }
             };
         } else {
