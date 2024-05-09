@@ -75,7 +75,7 @@ const Label = styled.div`
     padding-right: 5px;
 
     @media (max-width: 400px) {
-        font-size: 10px;
+        font-size: 12px;
     }
 `;
 
@@ -101,7 +101,7 @@ const Tag = styled.div`
     border-radius: 15px;
 
     @media (max-width: 400px) {
-        font-size: 10px;
+        font-size: 12px;
     }
 `;
 
@@ -120,7 +120,7 @@ const Author = styled.div`
     font-size: 16px;
 
     @media (max-width: 400px) {
-        font-size: 10px;
+        font-size: 12px;
     }
     
 `;
@@ -130,7 +130,7 @@ const Themes = styled.div`
     width: 100%;
 
     @media (max-width: 400px) {
-        font-size: 10px;
+        font-size: 12px;
     }
 `;
 
@@ -138,7 +138,7 @@ const Year = styled.div`
 font-size: 16px;
 
     @media (max-width: 400px) {
-        font-size: 10px;
+        font-size: 12px;
     }
     `;
 
@@ -154,9 +154,8 @@ const LibraryCard = ({ book }) => {
             return {
                 fontSize: "10px",
                 '@media (max-width: 400px)': {
-                    fontSize: "8px"
+                    fontSize: "8px",
                 }
-                // Add more styles as needed
             };
         } else {
             return {}; // Default styles
