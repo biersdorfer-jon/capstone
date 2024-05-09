@@ -98,6 +98,7 @@ const Tag = styled.div`
 `;
 
 const Title = styled.h2`
+
     text-align: center;
     color: #b10e27;
 `;
@@ -120,8 +121,19 @@ const LibraryCard = ({ book }) => {
         setCardHeight(event.target.height);
     };
 
+    const getCardStyles = () => {
+        if (book.id === 13) { // Example: Styling for book with ID 1
+            return {
+                fontSize: "10px"
+                // Add more styles as needed
+            };
+        } else {
+            return {}; // Default styles
+        }
+    };
+
     return (
-        <Card cardHeight={cardHeight}>
+        <Card cardHeight={cardHeight} >
             <Left>
                 <Image src={require(`../../../../images/${book.image}`)} alt={`${book.title} Cover`} onLoad={handleImageLoad} />
             </Left>
@@ -149,7 +161,7 @@ const LibraryCard = ({ book }) => {
                 </Fav>
                 <Tags>
                     {book.students.map((student, index) => (
-                        <Tag key={index}>{student}</Tag>
+                        <Tag  style={getCardStyles()} key={index}>{student}</Tag>
                     ))}
                 </Tags>
             </Right>

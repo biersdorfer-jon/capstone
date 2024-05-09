@@ -11,6 +11,10 @@ const CardContainer = styled.div`
   display: flex;
   width: 70%;
   justify-content: space-between;
+
+  @media (max-width: 900px) {
+    flex-wrap: wrap;
+  }
 `;
 
 const Image = styled.img`
@@ -78,33 +82,6 @@ const Book = styled.a`
 
 const BookDes = styled.div``;
 
-const Dropdown = styled.div`
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 32px;
-  height: 32px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-  background-color: #fff; /* Added white background */
-  border-radius: 0 4px 0 4px; /* Rounded corners for top-right of dropdown */
-`;
-
-const Description = styled.div`
-  display: ${({ isOpen }) => (isOpen ? 'block' : 'none')};
-  position: absolute;
-  top: 100%; /* Position below the card */
-  left: 0;
-  width: 100%;
-  background-color: #fff;
-  border: 1px solid #ddd;
-  border-radius: 0 0 4px 4px; /* Rounded corners for bottom of dropdown */
-  padding: 16px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  z-index: 1; /* Ensure dropdown is above other cards */
-`;
 
 const RosterCard = ({ rosterItem }) => {
   const [isOpen, setIsOpen] = useState(false);

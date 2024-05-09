@@ -8,6 +8,31 @@
     transform: rotate(180deg);
 }
 
+.shape-top {
+    position: static;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    fill: #BA0C2F;
+
+    transform: rotate(0deg);
+}
+
+
+.shape-top svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 107px;
+}
+
+.shape-top .shape-fill {
+    fill: #BA0C2F;
+}
+
+
 .shape-bottom svg {
     position: relative;
     display: block;

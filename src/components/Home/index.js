@@ -2,11 +2,16 @@ import React from 'react';
 import Slide from './Slider';
 import styled from 'styled-components';
 import ImageSlider from './Hero';
-import HonorsLogo1 from '../../images/hero.jpg';
-import HonorsLogo2 from '../../images/hero.jpg';
-import HonorsLogo3 from '../../images/hero.jpg';
+import HonorsLogo1 from '../../images/H1.png';
+import HonorsLogo2 from '../../images/H2.png';
+import HonorsLogo3 from '../../images/H3.png';
+import HonorsLogo4 from '../../images/H4.png';
+import HonorsLogo5 from '../../images/H5.png';
+import HonorsLogo6 from '../../images/H6.png';
+import HonorsLogo7 from '../../images/H7.png';
+import HonorsLogo8 from '../../images/H8.png';
+
 import { InstagramEmbed } from 'react-social-media-embed';
-import { Flat } from '@alptugidin/react-circular-progress-bar';
 
 const Container = styled.div`
   padding-top: 160px;
@@ -15,6 +20,10 @@ const Container = styled.div`
   align-items: center; /* Center vertically */
   flex-direction: column;
   padding-bottom: 200px;
+
+  @media (max-width: 400px) {
+    padding-top:
+  }
 `;
 
 const SlideContainer = styled.div`
@@ -31,7 +40,7 @@ const WhiteDiv = styled.div`
   width: 30%; /* Adjust width as needed */
   height: 100%; /* Cover entire SlideContainer */
   background-color: white;
-  z-index: 1; /* Ensure the white div is on top of the Slide */
+  z-index: 3; /* Ensure the white div is on top of the Slide */
 `;
 
 const LeftWhiteDiv = styled(WhiteDiv)`
@@ -42,10 +51,30 @@ const RightWhiteDiv = styled(WhiteDiv)`
   right: 0;
 `;
 
+const TitleContainer = styled.div`
+  width: 70%;
+  display: flex;
+  margin-top: 50px;
+  justify-content: start;
+  align-items: start;
+`;
+
+
+const Title = styled.div`
+  font-size: 30px;
+  font-weight: 800;
+
+`;
+
 const images = [
   HonorsLogo1,
   HonorsLogo2,
   HonorsLogo3,
+  HonorsLogo4,
+  HonorsLogo5,
+  HonorsLogo6,
+  HonorsLogo7,
+  HonorsLogo8,
   // Add more image imports as needed
 ];
 
@@ -53,6 +82,13 @@ const HomeFinal = () => {
   return (
     <Container>
       <ImageSlider images={images} />
+      <TitleContainer>
+    <svg height="45" width="15">
+        <line x1="0" y1="0" x2="0" y2="55" style={{strokeWidth: 7, stroke: '#ba0c2f'}} />
+      </svg>
+      <Title>2023-2024 RSU Honors Officers</Title>
+              
+    </TitleContainer>
       <SlideContainer>
         <LeftWhiteDiv />
         <Slide />
@@ -62,8 +98,8 @@ const HomeFinal = () => {
         <InstagramEmbed style={{height: "470px", transform: 'scale(.8)'}} url="https://www.instagram.com/p/C2fqkQjvBEn/" width={328} />
         
       </div>
-      
-    </Container>
+
+           </Container>
   );
 };
 

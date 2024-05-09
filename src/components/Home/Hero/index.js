@@ -30,6 +30,107 @@ const Overlay = styled.div`
     color: white;
     font-size: 24px;
 `;
+const IC = styled.div`
+    flex-direction: column;
+    width: 100%;
+
+    @media (max-width: 1100px) {
+        
+    }
+`;
+const MemoContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  
+
+  @media (max-width: 768px) {
+    align-items: center;
+  }
+    `;
+
+
+const Memo2 = styled.div`
+  color: white;
+  display: flex;
+  font-size: 30px;
+  font-weight: 200;
+  margin-bottom: -20px;
+  letter-spacing: 12px;
+  //line-height: .8; /* Adjust the line height to your preference */
+
+  @media (max-width: 768px) {
+    font-size: 25px;
+  }
+
+  @media (max-width: 570px) {
+    font-size: 20px;
+  }
+
+  @media (max-width: 370px) {
+    font-size: 10px;
+  }
+
+`;
+
+const Memo3 = styled.div`
+    color: white;
+    display: flex;
+    font-size: 120px;
+    font-weight: 600;
+    line-height: 1.6; /* Adjust the line height to your preference */
+    font-family: 'Yeserva One', sans-serif; /* Applying the specified font */
+
+    @media (max-width: 768px) {
+        font-size: 90px;
+    }
+
+    @media (max-width: 570px) {
+        font-size: 70px;
+    }
+
+    @media (max-width: 370px) {
+        font-size: 35px
+    }
+`;
+
+
+const ButtonContainer = styled.div`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    margin-top: 50px;
+
+    @media (max-width: 768px) {
+      justify-content: center;
+    }
+`;
+
+const Button = styled.a`
+    padding: 5px 25px;
+    width: 150px;
+    height: 50px;
+    background-color: transparent;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    border: 1px solid white;
+
+    &:hover {
+        background-color: white;
+        border: 1px solid white;
+        color: #0c2340;    
+    }
+
+`;
 
 const ImageSlider = ({ images }) => {
     const [currentSlide, setCurrentSlide] = useState(0);
@@ -37,13 +138,17 @@ const ImageSlider = ({ images }) => {
     useEffect(() => {
         const slideInterval = setInterval(() => {
             setCurrentSlide((prevSlide) => (prevSlide === images.length - 1 ? 0 : prevSlide + 1));
-        }, 10000); // Change the interval according to your preference
+        }, 7000); // Change the interval according to your preference
 
         return () => clearInterval(slideInterval);
     }, [images.length]);
 
     return (
+        
         <SliderContainer>
+            <style>
+@import url('https://fonts.googleapis.com/css2?family=Italiana&family=Sedan+SC&family=Yeseva+One&display=swap');
+</style>
             <SliderWrapper
                 style={{ transform: `translateX(-${currentSlide * 100}%)` }}
             >
@@ -52,8 +157,15 @@ const ImageSlider = ({ images }) => {
                 ))}
             </SliderWrapper>
             <Overlay>
-                {/* Add your text here */}
-                
+                <IC>
+            <MemoContainer>
+                <Memo2>ROGERS STATE UNIVERSITY</Memo2>
+                <Memo3>Honors Program</Memo3>
+            </MemoContainer>
+                <ButtonContainer>
+                    <Button href='/roster'>View Students</Button>
+                </ButtonContainer>
+                </IC>
             </Overlay>
         </SliderContainer>
     );

@@ -173,8 +173,11 @@ const Roster = () => {
         <CardContainer className="project">
           {toggle === 'all'
             ? house.map((rosterItem) => (
-                <RosterCard key={rosterItem.id} rosterItem={rosterItem} />
-              ))
+              <div id={`card-${rosterItem.id}`} style={{ width: '100%', display: 'flex', justifyContent:'center', alignItems: 'center'}}>
+  <RosterCard key={rosterItem.id} rosterItem={rosterItem} />
+</div>
+
+                 ))
             : house
                 .filter((item) => item.year === toggle)
                 .map((rosterItem) => (

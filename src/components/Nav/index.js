@@ -44,6 +44,8 @@ const NavContainer = styled.div`
     @media (max-width: 1000px) {
         padding: 0 30px;
     }
+
+    
 `;
 
 const LogoContainer = styled.div`
@@ -70,6 +72,10 @@ const Logo = styled.img`
     cursor: pointer;
     text-decoration: none;
     align-items: center;
+
+    @media (max-width: 400px) {
+        width: 90px;
+      }
     
 `;
 
@@ -165,6 +171,10 @@ const Heading = styled.div`
     z-index: 12;
     text-align: center;
     letter-spacing: 6px;
+
+    @media (max-width: 400px) {
+        font-size: 8px;
+      }
     `;
 
 const Nav = () => {

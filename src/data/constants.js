@@ -8,15 +8,7 @@ export const house = [
     //     "city": "Chicago, IL",
     //     "image": "Prac.jpg"
     // },
-    {
-        "id": 2,
-        "name": "Grace Anderson",
-        "year": "Senior",
-        "major": "Psychology",
-        "book": "The Bell Jar by Sylvia Plath",
-        "city": "Choctaw, OK",
-        "image": "GAnderson-min.jpg"
-    },
+    
     // {
     //     "id": 3,
     //     "name": "Olivia Armstrong",
@@ -53,24 +45,24 @@ export const house = [
     //     "city": "Washington, D.C.",
     //     "image": "Prac.jpg"
     // },
-    // {
-    //     "id": 7,
-    //     "name": "Ashlyn Barney",
-    //     "year": "Sophomore",
-    //     "major": "Psychology",
-    //     "book": "Frankenstein",
-    //     "city": "Portland, OR",
-    //     "image": "Prac.jpg"
-    // },
-    // {
-    //     "id": 8,
-    //     "name": "Shelbee Base",
-    //     "year": "Sophomore",
-    //     "major": "Psychology",
-    //     "book": "The Awakening by Kate Chopin",
-    //     "city": "Tuttle, OK",
-    //     "image": "SBase-min.jpg"
-    // },
+    {
+        "id": 7,
+        "name": "Ashlyn Barney",
+        "year": "Junior",
+        "major": "International Relations",
+        "book": "The Awakening by Kate Chopin",
+        "city": "Newcastle, OK",
+        "image": "Prac.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Shelbee Base",
+        "year": "Sophomore",
+        "major": "Psychology",
+        "book": "The Awakening by Kate Chopin",
+        "city": "Tuttle, OK",
+        "image": "SBase-min.png"
+    },
     {
         "id": 9,
         "name": "Jon Biersdorfer",
@@ -87,7 +79,7 @@ export const house = [
         "major": "International Relations",
         "book": "The Stranger by Albert Camus",
         "city": "Bixby, OK",
-        "image": "Prac.jpg"
+        "image": "Luke.png"
     },
     // {
     //     "id": 11,
@@ -179,15 +171,15 @@ export const house = [
         "city": "Tulsa, OK",
         "image": "MChambers-min.jpeg"
     },
-    // {
-    //     "id": 21,
-    //     "name": "Blake Classen",
-    //     "year": "Junior",
-    //     "major": "Economics",
-    //     "book": "Catch-22",
-    //     "city": "Salt Lake City, UT",
-    //     "image": "Prac.jpg"
-    // },
+    {
+        "id": 21,
+        "name": "Blake Classen",
+        "year": "Senior",
+        "major": "Business Management",
+        "book": "Neverwhere by Neil Gaiman",
+        "city": "Claremore, OK",
+        "image": "Prac.jpg"
+    },
     // {
     //     "id": 22,
     //     "name": "Kloie Clegg",
@@ -224,15 +216,15 @@ export const house = [
         "city": "Ohio",
         "image": "Josh.jpg"
     },
-    // {
-    //     "id": 27,
-    //     "name": "Bradey Despain",
-    //     "year": "Sophomore",
-    //     "major": "Geology",
-    //     "book": "Gone with the Wind",
-    //     "city": "Boise, ID",
-    //     "image": "Prac.jpg"
-    // },
+    {
+        "id": 27,
+        "name": "Bradey Despain",
+        "year": "Freshman",
+        "major": "Cyber Investigation",
+        "book": "The Midnight Library by Matt Haig",
+        "city": "Claremore, OK",
+        "image": "Prac.jpg"
+    },
     {
         "id": 110,
         "name": "Gracelyn Dill",
@@ -278,15 +270,24 @@ export const house = [
     //     "city": "Portland, ME",
     //     "image": "Prac.jpg"
     // },
-    // {
-    //     "id": 32,
-    //     "name": "Olivia Edgington",
-    //     "year": "Senior",
-    //     "major": "Business",
-    //     "book": "War and Peace",
-    //     "city": "San Diego, CA",
-    //     "image": "Prac.jpg"
-    // },
+    {
+        "id": 32,
+        "name": "Olivia Edgington",
+        "year": "Junior",
+        "major": "Pre-Physical Therapy",
+        "book": "The Midnight Library by Matt Haig",
+        "city": "Owasso,OK",
+        "image": "Prac.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Grace Edwards",
+        "year": "Senior",
+        "major": "Psychology",
+        "book": "The Bell Jar by Sylvia Plath",
+        "city": "Choctaw, OK",
+        "image": "GAnderson-min.jpg"
+    },
     // {
     //     "id": 33,
     //     "name": "Lahna Erwin",
@@ -458,15 +459,15 @@ export const house = [
     //     "city": "San Francisco, CA",
     //     "image": "Prac.jpg"
     //     },
-    //     {
-    //     "id": 51,
-    //     "name": "Paul Huebert",
-    //     "year": "Sophomore",
-    //     "major": "History",
-    //     "book": "Lord of the Flies",
-    //     "city": "Boston, MA",
-    //     "image": "Prac.jpg"
-    //     },
+        {
+        "id": 51,
+        "name": "Paul Huebert",
+        "year": "Sophomore",
+        "major": "Criminal Justice",
+        "book": "The Midnight Library by Matt Haig",
+        "city": "Claremore, OK",
+        "image": "Prac.jpg"
+        },
     //     {
     //     "id": 52,
     //     "name": "William Imhoff",
@@ -539,24 +540,24 @@ export const house = [
         "city": "Ramona, OK",
         "image": "JMcCain-min.jpeg"
         },
-        // {
-        //     "id": 26,
-        //     "name": "Isaac McNutt",
-        //     "year": "Sophomore",
-        //     "major": "Information Technology",
-        //     "book": "Hamnet by Maggie O'Farrel",
-        //     "city": "Antlers, OK",
-        //     "image": "IMcNutt-min.jpeg",
-        // },
-    //     {
-    //     "id": 60,
-    //     "name": "Linley Miller",
-    //     "year": "Senior",
-    //     "major": "Mathematics",
-    //     "book": "Hamlet",
-    //     "city": "Washington, D.C.",
-    //     "image": "Prac.jpg"
-    //     },
+        {
+            "id": 26,
+            "name": "Isaac McNutt",
+            "year": "Sophomore",
+            "major": "Information Technology",
+            "book": "Hamnet by Maggie O'Farrel",
+            "city": "Antlers, OK",
+            "image": "IMcNutt-min.png",
+        },
+        {
+        "id": 60,
+        "name": "Linley Miller",
+        "year": "Freshman",
+        "major": "Accounting",
+        "book": "The Midnight Library by Matt Haig",
+        "city": "Okmulgee, OK",
+        "image": "Prac.jpg"
+        },
         { 
         "id": 61,
         "name": "Gabbi Mobarak",
@@ -611,15 +612,15 @@ export const house = [
         "city": "Prue, OK",
         "image": "ERodriguez-min.jpeg"
         },
-    //     {
-    //     "id": 67,
-    //     "name": "Sidney Roland",
-    //     "year": "Sophomore",
-    //     "major": "History",
-    //     "book": "Lord of the Flies",
-    //     "city": "Boston, MA",
-    //     "image": "Prac.jpg"
-    //     },
+        {
+        "id": 67,
+        "name": "Sidney Roland",
+        "year": "Freshman",
+        "major": "Accounting",
+        "book": "Educated by Tara Westover",
+        "city": "Claremore, OK",
+        "image": "Prac.jpg"
+        },
         {
         "id": 68,
         "name": "Ashleigh Ross",
@@ -638,15 +639,15 @@ export const house = [
         "city": "Claremore, OK",
         "image": "ERuth-min.jpeg"
         },
-    //     {
-    //     "id": 70,
-    //     "name": "Yuvia Salvidar",
-    //     "year": "Freshman",
-    //     "major": "Environmental Science",
-    //     "book": "Chicago, IL",
-    //     "city": "Seattle, WA",
-    //     "image": "Prac.jpg"
-    //     },
+        {
+        "id": 70,
+        "name": "Yuvia Salvidar",
+        "year": "Freshman",
+        "major": "Psychology",
+        "book": "The Midnight Library by Matt Haig",
+        "city": "Tulsa, OK",
+        "image": "Prac.jpg"
+        },
     //     {
     //     "id": 71,
     //     "name": "Terran Schornick",
@@ -692,33 +693,33 @@ export const house = [
         "city": "Oologah, OK",
         "image": "CStapleton-min.jpeg"
         },
-    //     {
-    //     "id": 76,
-    //     "name": "Aurora Stewart",
-    //     "year": "Senior",
-    //     "major": "Mathematics",
-    //     "book": "Hamlet",
-    //     "city": "Washington, D.C.",
-    //     "image": "Prac.jpg"
-    //     },
-    //     {
-    //     "id": 77,
-    //     "name": "Avery Thomason",
-    //     "year": "Junior",
-    //     "major": "Political Science",
-    //     "book": "The Great Gatsby",
-    //     "city": "Los Angeles, CA",
-    //     "image": "Prac.jpg"
-    //     },
-    //     {
-    //     "id": 78,
-    //     "name": "Teagen Thurston",
-    //     "year": "Freshman",
-    //     "major": "Environmental Science",
-    //     "book": "Chicago, IL",
-    //     "city": "Seattle, WA",
-    //     "image": "Prac.jpg"
-    //     },
+        {
+        "id": 76,
+        "name": "Aurora Stewart",
+        "year": "Sophomore",
+        "major": "Political Science",
+        "book": "The Stranger by Albert Camus",
+        "city": "Tulsa, OK",
+        "image": "Prac.jpg"
+        },
+        {
+        "id": 77,
+        "name": "Avery Thomason",
+        "year": "Freshman",
+        "major": "Studio Art",
+        "book": "Tender is the Flesh",
+        "city": "Barnsdall, OK",
+        "image": "Prac.jpg"
+        },
+        {
+        "id": 78,
+        "name": "Teagen Thurston",
+        "year": "Sophomore",
+        "major": "Pre-Physical Therapy",
+        "book": "The Midnight Library by Matt Haig",
+        "city": "Jenks, OK",
+        "image": "Prac.jpg"
+        },
         {
         "id": 79,
         "name": "Lilly Wash",
@@ -807,26 +808,11 @@ export const bookCollection = [
             "Truth",
         ],
         students: [
-            "Lilly Wash"
+            "Lilly W."
         ],
         image: "Room-Virginia.jpg",
     },
-    {
-        id: 2,
-        title: "Fahrenheit 451",
-        author: "Ray Bradbury",
-        year: "1953",
-        themes: [
-            "Censorship",
-            "Conformity and Individuality",
-            "Action vs. Inaction",
-        ],
-        students: [
-            "Jon B.",
-            "Luke B.",
-        ],
-        image: "Fahrenheit451.jpg",
-    },
+    
     {
         id: 3,
         title: "Cat's Cradle",
@@ -837,38 +823,25 @@ export const bookCollection = [
             "Religion",
             "Destiny",
         ],
-        students: [],
+        students: [
+            "Eden R.",
+        ],
         image: "CatsCradle.jpg",
     },
     {
-        id: 4,
-        title: "The Awakening",
-        author: "Kate Chopin",
-        year: "1899",
+        id: 23,
+        title: "Conversations with Friends",
+        author: "Sally Rooney",
+        year: "2017",
         themes: [
-            "Isolation",
-            "Identity",
-            "Depression"
+            "Trauma and Memory",
+            "Survival",
+            "Generational Relationships"
         ],
         students: [
-            "Ashleigh Ross",
+            "Ashleigh H.",
         ],
-        image: "Awakening.jpg",
-    },
-    {
-        id: 5,
-        title: "The Bell Jar",
-        author: "Sylvia Plath",
-        year: "1963",
-        themes: [
-            "Mental Illness",
-            "Female Sexuality",
-            "Self-Discovery"
-        ],
-        students: [
-            "Grace Anderson"
-        ],
-        image: "Bell.jpg",
+        image: "WithFriends.jpg",
     },
     {
         id: 6,
@@ -881,7 +854,7 @@ export const bookCollection = [
             "Redemption and Forgiveness"
         ],
         students: [
-            "Josie Gaither",
+            "Josie G.",
         ],
         image: "Deacon.jpg",
     },
@@ -896,10 +869,42 @@ export const bookCollection = [
             "Identity and Self-Discovery"
         ],
         students: [
-            "Elizabeth Rodriguez",
-            "Jensyn McCain",
+            "Elizabeth R.",
+            "Jensyn M.",
+            "Sidney R.",
         ],
         image: "Educated.jpg",
+    },
+    {
+        id: 30,
+        title: "Either/Or",
+        author: "Elif Batuman",
+        year: "2022",
+        themes: [
+            "Education and Empowerment",
+            "Family",
+            "Identity and Self-Discovery"
+        ],
+        students: [
+            "Audrey F.",
+            "Kaylee B.",
+        ],
+        image: "Either.jpg",
+    },
+    {
+        id: 2,
+        title: "Fahrenheit 451",
+        author: "Ray Bradbury",
+        year: "1953",
+        themes: [
+            "Censorship",
+            "Conformity and Individuality",
+            "Action vs. Inaction",
+        ],
+        students: [
+            "Mackenzie S.",
+        ],
+        image: "Fahrenheit451.jpg",
     },
     {
         id: 9,
@@ -912,7 +917,8 @@ export const bookCollection = [
             "Motherhood"
         ],
         students: [
-            "Olivia Graham",
+            "Isaac M.",
+            "Olivia G.",
         ],
         image: "Hamnet.jpg",
     },
@@ -927,27 +933,27 @@ export const bookCollection = [
             "Socioeconomic Mobility"
         ],
         students: [
-            "Aidan Williams",
+            "Aidan W.",
         ],
         image: "HillBilly.jpg",
     },
+    
     {
-        id: 11,
-        title: "The Last Lecture",
-        author: "Randy Pausch",
-        year: "2008",
+        id: 26,
+        title: "Lament for a Son",
+        author: "Nicholas Wolterstorff",
+        year: "1987",
         themes: [
-            "Appreciation",
-            "Legacy and Impact",
-            "Self-Discovery",
-            
-            
+            "Trauma and Memory",
+            "Survival",
+            "Generational Relationships"
         ],
         students: [
-            "Matthew Garrison",
+            "Jon B.",
         ],
-        image: "Lecture.jpg",
+        image: "Lament.jpg",
     },
+    
     {
         id: 12,
         title: "Maus",
@@ -959,24 +965,26 @@ export const bookCollection = [
             "Generational Relationships"
         ],
         students: [
-            
+            "Ben B.",
+            "Gunner E.",
         ],
         image: "Maus.jpg",
     },
+    
     {
-        id: 13,
-        title: "The Midnight Library",
-        author: "Matt Haig",
-        year: "2020",
+        id: 25,
+        title: "Neverwhere",
+        author: "Neil Gaiman",
+        year: "1996",
         themes: [
             "Trauma and Memory",
             "Survival",
             "Generational Relationships"
         ],
         students: [
-            
+            "Blake C.",
         ],
-        image: "MidnightLibrary.jpg",
+        image: "Never.jpg",
     },
     {
         id: 14,
@@ -989,9 +997,38 @@ export const bookCollection = [
             "Generational Relationships"
         ],
         students: [
-            
+            "Dr. Ford",
         ],
         image: "Nomal.jpg",
+    },
+    {
+        id: 26,
+        title: "Persepolis",
+        author: "Marjane Satrapi",
+        year: "2000",
+        themes: [
+            "Trauma and Memory",
+            "Survival",
+            "Generational Relationships"
+        ],
+        students: [
+            "Carson B.",
+        ],
+        image: "Persepolis.jpg",
+    },{
+        id: 31,
+        title: "Popular",
+        author: "Mitch Prinstein",
+        year: "2017",
+        themes: [
+            "Trauma and Memory",
+            "Survival",
+            "Generational Relationships"
+        ],
+        students: [
+            "Ashlyn B.",
+        ],
+        image: "Popular.jpg",
     },
     {
         id: 15,
@@ -1004,7 +1041,9 @@ export const bookCollection = [
             "Generational Relationships"
         ],
         students: [
-            
+            "Allison B.",
+            "Cate C.",
+            "Melanie S.",
         ],
         image: "Pride.jpg",
     },
@@ -1019,25 +1058,11 @@ export const bookCollection = [
             "Generational Relationships"
         ],
         students: [
-            
+            "Kali C.",
         ],
         image: "Rebecca.jpg",
     },
-    {
-        id: 17,
-        title: "The Road",
-        author: "Cormac McCarthy",
-        year: "2006",
-        themes: [
-            "Trauma and Memory",
-            "Survival",
-            "Generational Relationships"
-        ],
-        students: [
-            
-        ],
-        image: "Road.jpg",
-    },
+    
     {
         id: 18,
         title: "Siddhartha",
@@ -1049,9 +1074,73 @@ export const bookCollection = [
             "Generational Relationships"
         ],
         students: [
-            
+            "Emma K."
         ],
         image: "Siddhartha.jpg",
+    },
+    
+    {
+        id: 24,
+        title: "Tender is the Flesh",
+        author: "Agustina Bazterrica",
+        year: "2017",
+        themes: [
+            "Trauma and Memory",
+            "Survival",
+            "Generational Relationships"
+        ],
+        students: [
+            "Avery T.",
+        ],
+        image: "Tender.jpg",
+    },
+    {
+        id: 4,
+        title: "The Awakening",
+        author: "Kate Chopin",
+        year: "1899",
+        themes: [
+            "Isolation",
+            "Identity",
+            "Depression"
+        ],
+        students: [
+            "Ashleigh R.",
+            "Grace K.",
+            "Shelbee B.",
+        ],
+        image: "Awakening.jpg",
+    },
+    {
+        id: 5,
+        title: "The Bell Jar",
+        author: "Sylvia Plath",
+        year: "1963",
+        themes: [
+            "Mental Illness",
+            "Female Sexuality",
+            "Self-Discovery"
+        ],
+        students: [
+            "Grace E.",
+
+        ],
+        image: "Bell.jpg",
+    },
+    {
+        id: 21,
+        title: "The Best We Could Do",
+        author: "Thi Bui",
+        year: "2017",
+        themes: [
+            "Trauma and Memory",
+            "Survival",
+            "Generational Relationships"
+        ],
+        students: [
+            "Jessica H."
+        ],
+        image: "The Best.jpg",
     },
     {
         id: 19,
@@ -1064,9 +1153,65 @@ export const bookCollection = [
             "Generational Relationships"
         ],
         students: [
-            
+            "Moriah C.",
+            "Tori M.",
         ],
         image: "Sleep.jpg",
+    },
+    {
+        id: 11,
+        title: "The Last Lecture",
+        author: "Randy Pausch",
+        year: "2008",
+        themes: [
+            "Appreciation",
+            "Legacy and Impact",
+            "Self-Discovery",
+        ],
+        students: [
+            "Matthew G.",
+        ],
+        image: "Lecture.jpg",
+    },
+    {
+        id: 13,
+        title: "The Midnight Library",
+        author: "Matt Haig",
+        year: "2020",
+        themes: [
+            "Trauma and Memory",
+        ],
+        students: [
+            "Avery W.",
+            "Bradey D.",
+            "Caitlyn C.",
+            "Emery A.",
+            "Gabbi M.",
+            "Linley M.",
+            "Miranda L.",
+            "Olivia E.",
+            "Paul H.",
+            "Tatum B.",
+            "Teagan T.",
+            "Yuvia S",
+
+        ],
+        image: "MidnightLibrary.jpg",
+    },
+    {
+        id: 17,
+        title: "The Road",
+        author: "Cormac McCarthy",
+        year: "2006",
+        themes: [
+            "Trauma and Memory",
+            "Survival",
+            "Generational Relationships"
+        ],
+        students: [
+            "Clint S."
+        ],
+        image: "Road.jpg",
     },
     {
         id: 20,
@@ -1079,10 +1224,37 @@ export const bookCollection = [
             "Generational Relationships"
         ],
         students: [
+            "Aurora S.",
+            "Alex B.",
+            "Gracelyn D.",
+            "Luke B",
+            "Nathan H.",
+            
+            
             
         ],
-        image: "Sleep.jpg",
+        image: "Stranger.jpg",
     },
+   
+    {
+        id: 22,
+        title: "There There",
+        author: "Tommy Orange",
+        year: "2018",
+        themes: [
+            "Trauma and Memory",
+            "Survival",
+            "Generational Relationships"
+        ],
+        students: [
+            "Anne F.",
+            "Brody W.",
+
+        ],
+        image: "ThereThere.jpg",
+    },
+    
+    
     
 
 ];

@@ -18,7 +18,7 @@ const Slide = () => {
       {
         breakpoint: 1550,
         settings: {
-          slidesToShow: 1,
+          slidesToShow: 3,
           slidesToScroll: 1,
           infinite: true,
           dots: true,
@@ -36,7 +36,7 @@ const Slide = () => {
       {
         breakpoint: 900,
         settings: {
-          slidesToShow: 3,
+          slidesToShow: 1,
           slidesToScroll: 1,
           infinite: true,
           dots: true,
