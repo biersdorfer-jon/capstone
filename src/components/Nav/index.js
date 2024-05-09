@@ -3,6 +3,8 @@ import styled from 'styled-components';
 import { GoArrowRight } from "react-icons/go";
 import './nav.css';
 import LogoSVG from '../../images/logo_main2.svg'; // Import your SVG file
+import { FaInstagram } from "react-icons/fa";
+
 
 
 const Container = styled.div`
@@ -62,6 +64,10 @@ const LogoContainer = styled.div`
 
     @media (max-width: 1000px) {
         width: 30%;
+    }
+
+    @media (max-width: 768px) {
+        width: 18%;
     }
 `;
 
@@ -130,11 +136,12 @@ const ButtonContainer = styled.div`
     height: 100%;
 
     @media (max-width: 1450px) {
-        width: 40%;
+        width: 60%;
     }
 
     @media (max-width: 1000px) {
         width: 30%;
+        justify-content: start;
     }
 
     @media (max-width: 768px) {
@@ -177,6 +184,14 @@ const Heading = styled.div`
       }
     `;
 
+    const InstagramButton = styled.a`
+    display: flex;
+    background-color: #ba0c2f; /* Instagram pink */
+    border-radius: 50%; /* Makes it a circle */
+    padding: 12px;
+    cursor: pointer;
+`;
+
 const Nav = () => {
 
     function openNav() {
@@ -191,7 +206,7 @@ const Nav = () => {
 
     return (
         
-            <Container>
+            <Container id='home'>
                 <style>
 @import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
 </style>
@@ -213,7 +228,9 @@ const Nav = () => {
                 </div>
                 <span style={{ cursor: 'pointer', color:'white', position: 'absolute', top: '55px', right: '100px', transform: 'translateY(-50%)'}} onClick={openNav}>&#9776;</span>
                 <ButtonContainer>
-                    <Button href='#contact'>Contact Us <GoArrowRight /></Button>
+                    <InstagramButton href='https://www.instagram.com/rogers_state_honors/' target='_blank'>
+                    <FaInstagram  size={40} color='white'/>
+                    </InstagramButton>
                 </ButtonContainer>
                 </NavContainer>
                 <BottomContainer>

@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import LogoSVG from '../../images/footer_logo.svg';
+import Outer from './Outer';
 
 const Container = styled.div`
   width: 100%;
@@ -33,6 +34,10 @@ const RogersImage = styled.img`
     transform: scale(1.05);
     
   }
+
+  @media (max-width: 700px) {
+    width: 100px;
+  }
 `;
 
 const CopyrightCon = styled.div`
@@ -63,7 +68,7 @@ const Footer = () => {
         2024 © ROGERS STATE UNIVERSITY HONORS
     </CopyrightCon>
 
-    <Bottom></Bottom>
+    <Outer/>
     </Container>
   )
 }

@@ -152,13 +152,17 @@ const LibraryCard = ({ book }) => {
     const getCardStyles = () => {
         if (book.id === 13) { // Example: Styling for book with ID 1
             return {
-                fontSize: "10px"
+                fontSize: "10px",
+                '@media (max-width: 400px)': {
+                    fontSize: "8px"
+                }
                 // Add more styles as needed
             };
         } else {
             return {}; // Default styles
         }
     };
+    
 
     return (
         <Card cardHeight={cardHeight} >

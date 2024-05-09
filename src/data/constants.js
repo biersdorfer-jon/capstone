@@ -760,9 +760,9 @@ export const house = [
         "id": 83,
         "name": "Brody White",
         "year": "Senior",
-        "major": "Mound City, KS",
+        "major": "Allied Health",
         "book": "There There by Tommy Orange",
-        "city": "Allied Health",
+        "city": "Mound City, KS",
         "image": "BWhite-min.jpeg",
         },
         {
