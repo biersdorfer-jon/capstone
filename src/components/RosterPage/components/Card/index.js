@@ -78,9 +78,37 @@ const Book = styled.a`
     text-decoration: underline;
     cursor: pointer;
   }
+
+  @media (max-width: 570px) {
+    margin-left: 0px;
+  }
+
 `;
 
 const BookDes = styled.div``;
+
+const Top = styled.div`
+display: flex;
+flex-direction: row;
+width: 100%;
+
+  @media (max-width: 900px) {
+
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 10px;
+  }
+`;
+
+const Bottom = styled.div`
+  display: flex;
+  flex-direction: row;
+
+  @media (max-width: 570px) {
+  display: flex;
+  flex-direction: column;
+  }
+`;
 
 
 const RosterCard = ({ rosterItem }) => {
@@ -92,12 +120,14 @@ const RosterCard = ({ rosterItem }) => {
 
   return (
     <CardContainer>
+    <Top>
       <Image src={require(`../../../../images/${rosterItem.image}`)} alt={`${rosterItem.name}'s photo`} />
       <InfoContainer>
         <Name>{rosterItem.name}</Name>
         <Desc>{`${rosterItem.year} - ${rosterItem.major}`}</Desc>
         
       </InfoContainer>
+      </Top>
       <DetailContainer>
 
       
@@ -113,9 +143,10 @@ const RosterCard = ({ rosterItem }) => {
       </LocationText>
       </LocationContainer>
       <LocationContainer>
-
+        <Bottom>
         <BookDes>Favorite Work Studied:</BookDes>
         <Book>{`${rosterItem.book}`}</Book>
+        </Bottom>
       </LocationContainer>
       </DetailContainer>
 

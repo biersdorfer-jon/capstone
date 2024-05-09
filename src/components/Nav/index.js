@@ -172,7 +172,7 @@ const Heading = styled.div`
     text-align: center;
     letter-spacing: 6px;
 
-    @media (max-width: 400px) {
+    @media (max-width: 600px) {
         font-size: 8px;
       }
     `;
@@ -204,14 +204,14 @@ const Nav = () => {
                     <Tags href='/library'>Library</Tags>
                 </NavItems>
                 <div id="myNav" className="overlay">
-                    <a style={{ cursor: 'pointer' }} className="closebtn" onClick={closeNav}>&times;</a>
+                    <a style={{ cursor: 'pointer', zIndex:"50" }} className="closebtn" onClick={closeNav}>&times;</a>
                     <div className="overlay-content">
                         <a href="" onClick={closeNav}>Home</a>
-                        <a href="/team" onClick={closeNav}>Roster</a>
-                        <a href="/list" onClick={closeNav}>Library</a>
+                        <a href="/roster" onClick={closeNav}>Roster</a>
+                        <a href="/library" onClick={closeNav}>Library</a>
                     </div>
                 </div>
-                <span style={{ cursor: 'pointer' }} onClick={openNav}>&#9776;</span>
+                <span style={{ cursor: 'pointer', color:'white', position: 'absolute', top: '55px', right: '100px', transform: 'translateY(-50%)'}} onClick={openNav}>&#9776;</span>
                 <ButtonContainer>
                     <Button href='#contact'>Contact Us <GoArrowRight /></Button>
                 </ButtonContainer>

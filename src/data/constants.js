@@ -52,7 +52,7 @@ export const house = [
         "major": "International Relations",
         "book": "The Awakening by Kate Chopin",
         "city": "Newcastle, OK",
-        "image": "Prac.jpg"
+        "image": "Barney.jpeg"
     },
     {
         "id": 8,
@@ -70,7 +70,7 @@ export const house = [
         "major": "Multimedia and Software Development",
         "book": "Lament for a Son by Nicholas Wolterstorff",
         "city": "Bixby, OK",
-        "image": "Prac.jpg"
+        "image": "JB.jpg"
     },
     {
         "id": 10,
@@ -178,7 +178,7 @@ export const house = [
         "major": "Business Management",
         "book": "Neverwhere by Neil Gaiman",
         "city": "Claremore, OK",
-        "image": "Prac.jpg"
+        "image": "Blake.jpeg"
     },
     // {
     //     "id": 22,
@@ -223,7 +223,7 @@ export const house = [
         "major": "Cyber Investigation",
         "book": "The Midnight Library by Matt Haig",
         "city": "Claremore, OK",
-        "image": "Prac.jpg"
+        "image": "Bradey.jpeg"
     },
     {
         "id": 110,
@@ -277,7 +277,7 @@ export const house = [
         "major": "Pre-Physical Therapy",
         "book": "The Midnight Library by Matt Haig",
         "city": "Owasso,OK",
-        "image": "Prac.jpg"
+        "image": "Edge.jpeg"
     },
     {
         "id": 2,
@@ -466,7 +466,7 @@ export const house = [
         "major": "Criminal Justice",
         "book": "The Midnight Library by Matt Haig",
         "city": "Claremore, OK",
-        "image": "Prac.jpg"
+        "image": "Paul.jpg"
         },
     //     {
     //     "id": 52,
@@ -556,7 +556,7 @@ export const house = [
         "major": "Accounting",
         "book": "The Midnight Library by Matt Haig",
         "city": "Okmulgee, OK",
-        "image": "Prac.jpg"
+        "image": "Linley.jpeg"
         },
         { 
         "id": 61,
@@ -619,7 +619,7 @@ export const house = [
         "major": "Accounting",
         "book": "Educated by Tara Westover",
         "city": "Claremore, OK",
-        "image": "Prac.jpg"
+        "image": "Roland.jpeg"
         },
         {
         "id": 68,
@@ -646,7 +646,7 @@ export const house = [
         "major": "Psychology",
         "book": "The Midnight Library by Matt Haig",
         "city": "Tulsa, OK",
-        "image": "Prac.jpg"
+        "image": "Yuvia.jpeg"
         },
     //     {
     //     "id": 71,
@@ -700,7 +700,7 @@ export const house = [
         "major": "Political Science",
         "book": "The Stranger by Albert Camus",
         "city": "Tulsa, OK",
-        "image": "Prac.jpg"
+        "image": "Aurora.jpeg"
         },
         {
         "id": 77,
@@ -709,7 +709,7 @@ export const house = [
         "major": "Studio Art",
         "book": "Tender is the Flesh",
         "city": "Barnsdall, OK",
-        "image": "Prac.jpg"
+        "image": "Thoma.jpeg"
         },
         {
         "id": 78,
@@ -718,7 +718,7 @@ export const house = [
         "major": "Pre-Physical Therapy",
         "book": "The Midnight Library by Matt Haig",
         "city": "Jenks, OK",
-        "image": "Prac.jpg"
+        "image": "Teagan.jpeg"
         },
         {
         "id": 79,
@@ -834,9 +834,9 @@ export const bookCollection = [
         author: "Sally Rooney",
         year: "2017",
         themes: [
-            "Trauma and Memory",
-            "Survival",
-            "Generational Relationships"
+            "Love and Intimacy",
+            "Identity",
+            "Social Status"
         ],
         students: [
             "Ashleigh H.",
@@ -881,9 +881,9 @@ export const bookCollection = [
         author: "Elif Batuman",
         year: "2022",
         themes: [
-            "Education and Empowerment",
-            "Family",
-            "Identity and Self-Discovery"
+            "Language and Literature",
+            "Love",
+            "Education"
         ],
         students: [
             "Audrey F.",
@@ -944,9 +944,9 @@ export const bookCollection = [
         author: "Nicholas Wolterstorff",
         year: "1987",
         themes: [
-            "Trauma and Memory",
-            "Survival",
-            "Generational Relationships"
+            "Grief",
+            "Faith and Doubt",
+            "Rememberance"
         ],
         students: [
             "Jon B.",
@@ -977,9 +977,9 @@ export const bookCollection = [
         author: "Neil Gaiman",
         year: "1996",
         themes: [
-            "Trauma and Memory",
+            "Generational Trauma",
             "Survival",
-            "Generational Relationships"
+            "Relationships"
         ],
         students: [
             "Blake C.",
@@ -992,9 +992,9 @@ export const bookCollection = [
         author: "Sally Rooney",
         year: "2018",
         themes: [
-            "Trauma and Memory",
-            "Survival",
-            "Generational Relationships"
+            "Love",
+            "Miscommunication",
+            "Social Class"
         ],
         students: [
             "Dr. Ford",
@@ -1007,9 +1007,9 @@ export const bookCollection = [
         author: "Marjane Satrapi",
         year: "2000",
         themes: [
-            "Trauma and Memory",
-            "Survival",
-            "Generational Relationships"
+            "Religion and Repression",
+            "Martyrdom",
+            "Violence and Forgiveness"
         ],
         students: [
             "Carson B.",
@@ -1021,9 +1021,9 @@ export const bookCollection = [
         author: "Mitch Prinstein",
         year: "2017",
         themes: [
-            "Trauma and Memory",
-            "Survival",
-            "Generational Relationships"
+            "Self-Esteem",
+            "Popularity",
+            "Mental Health"
         ],
         students: [
             "Ashlyn B.",
@@ -1036,9 +1036,9 @@ export const bookCollection = [
         author: "Jane Austen",
         year: "1813",
         themes: [
-            "Trauma and Memory",
-            "Survival",
-            "Generational Relationships"
+            "Family",
+            "Reputation",
+            "Love and Integrity"
         ],
         students: [
             "Allison B.",
@@ -1053,9 +1053,9 @@ export const bookCollection = [
         author: "Daphne de Maurier",
         year: "1938",
         themes: [
-            "Trauma and Memory",
-            "Survival",
-            "Generational Relationships"
+            "Jealousy",
+            "Identity",
+            "Justice and Deceit"
         ],
         students: [
             "Kali C.",
@@ -1069,9 +1069,9 @@ export const bookCollection = [
         author: "Herman Heese",
         year: "1922",
         themes: [
-            "Trauma and Memory",
-            "Survival",
-            "Generational Relationships"
+            "Spiritual Enlightenment",
+            "Nature",
+            "Direction and Indirection"
         ],
         students: [
             "Emma K."
@@ -1085,9 +1085,9 @@ export const bookCollection = [
         author: "Agustina Bazterrica",
         year: "2017",
         themes: [
-            "Trauma and Memory",
-            "Survival",
-            "Generational Relationships"
+            "Dehumanization",
+            "Ethical Dilemmas",
+            "Social Commentary"
         ],
         students: [
             "Avery T.",
@@ -1133,9 +1133,9 @@ export const bookCollection = [
         author: "Thi Bui",
         year: "2017",
         themes: [
-            "Trauma and Memory",
-            "Survival",
-            "Generational Relationships"
+            "Trauma",
+            "Family",
+            "Belonging and Assimilation"
         ],
         students: [
             "Jessica H."
@@ -1148,9 +1148,9 @@ export const bookCollection = [
         author: "Raymond Chandler",
         year: "1939",
         themes: [
-            "Trauma and Memory",
-            "Survival",
-            "Generational Relationships"
+            "Cynicism and Survival",
+            "Corruption",
+            "Wealth and Status"
         ],
         students: [
             "Moriah C.",
@@ -1179,7 +1179,10 @@ export const bookCollection = [
         author: "Matt Haig",
         year: "2020",
         themes: [
-            "Trauma and Memory",
+            "Regret",
+            "Purpose",
+            "Possibility",
+
         ],
         students: [
             "Avery W.",
@@ -1204,9 +1207,9 @@ export const bookCollection = [
         author: "Cormac McCarthy",
         year: "2006",
         themes: [
-            "Trauma and Memory",
-            "Survival",
-            "Generational Relationships"
+            "Certainty of Death",
+            "Hope",
+            "Survival and Perseverance"
         ],
         students: [
             "Clint S."
@@ -1219,9 +1222,9 @@ export const bookCollection = [
         author: "Albert Camus",
         year: "1942",
         themes: [
-            "Trauma and Memory",
-            "Survival",
-            "Generational Relationships"
+            "Meaninglessness of Life",
+            "Irrationality of the Universe",
+            "Importance of the World"
         ],
         students: [
             "Aurora S.",
@@ -1242,9 +1245,9 @@ export const bookCollection = [
         author: "Tommy Orange",
         year: "2018",
         themes: [
-            "Trauma and Memory",
-            "Survival",
-            "Generational Relationships"
+            "Cultural Identity",
+            "Inheritance of Trauma",
+            "Community"
         ],
         students: [
             "Anne F.",

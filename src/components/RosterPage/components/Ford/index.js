@@ -1,46 +1,20 @@
-import React from 'react'
-import styled from 'styled-components'
+import React, { useState } from 'react';
+import styled from 'styled-components';
+import { IoLocationOutline } from "react-icons/io5";
 
-
-const Container = styled.div`
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    position: relative;
-    z-index: 1;
-    align-items: center;
-    padding: 0px 0px 60px 0px;
-    padding-top: 40px;
-    background: #BA0C2F;
-
-    @media (max-width: 768px) {
-        padding: 30px;
-    }
-`;
-const Wrapper = styled.div`
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: column;
-    width: 100%;
-    max-width: 1350px;
-    padding: 40px 0px 0px 0px;
-    gap: 12px;
-    @media (max-width: 960px) {
-        flex-direction: column;
-    }
-`;
 
 const CardContainer = styled.div`
-  border: 1px solid white;
-  //background-color: white;
+  border: 1px solid #ddd;
   border-radius: 4px;
   padding: 28px;
-  margin-bottom: 16px;
+  margin-bottom: 100px;
   display: flex;
-  width: 70%;
+  width: 100%;
   justify-content: space-between;
+
+  @media (max-width: 900px) {
+    flex-wrap: wrap;
+  }
 `;
 
 const Image = styled.img`
@@ -77,7 +51,7 @@ const LocationContainer = styled.div`
 
 const Name = styled.h3`
   margin: 0;
-  color: white;
+  color: #ba0c2f;
 `;
 
 const LocationIcon = styled.div`
@@ -91,12 +65,11 @@ const LocationText = styled.div`
 
 const Desc = styled.p`
   margin-bottom: 4px;
-  color: white;
-  padding-right: 10px;
+  color: #ba0c2f;
 `;
 
 const Book = styled.a`
-  color: white;
+  color: #ba0c2f;
   //text-decoration: none;
   font-style: italic;
   margin-left: 7px;
@@ -105,23 +78,64 @@ const Book = styled.a`
     text-decoration: underline;
     cursor: pointer;
   }
+
+  @media (max-width: 570px) {
+    margin-left: 0px;
+  }
+
 `;
 
 const BookDes = styled.div``;
 
+const Top = styled.div`
+display: flex;
+flex-direction: row;
+width: 100%;
+
+  @media (max-width: 900px) {
+
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 10px;
+  }
+`;
+
+const Bottom = styled.div`
+  display: flex;
+  flex-direction: row;
+
+  @media (max-width: 570px) {
+  display: flex;
+  flex-direction: column;
+  }
+`;
+
+const CardContainer2 = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 28px;
+  flex-wrap: wrap;
+`;
 
 
 const Ford = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const handleClick = () => {
+    setIsOpen(!isOpen);
+  };
+
   return (
-    <Container>
-        <Wrapper>
-        <CardContainer>
-      <Image src={require(`../../../../images/FORD-min.jpeg`)} />
-      <InfoContainer>
-        <Name>Dr. James Ford</Name>
+    <CardContainer2>
+    <CardContainer>
+    <Top>
+    <Image src={require(`../../../../images/FORD-min.jpeg`)} />      <InfoContainer>
+    <Name>Dr. James Ford</Name>
         <Desc>Interim Department Head, Professor and Director of Academic Enrichment</Desc>
         
       </InfoContainer>
+      </Top>
       <DetailContainer>
 
       
@@ -133,21 +147,21 @@ const Ford = () => {
         </svg>
 </LocationIcon>
       <LocationText>
-          Edmond, OK
+        Edmond, OK
       </LocationText>
       </LocationContainer>
       <LocationContainer>
-
+        <Bottom>
         <BookDes>Favorite Work Studied:</BookDes>
         <Book>Normal People</Book>
+        </Bottom>
       </LocationContainer>
       </DetailContainer>
 
 
     </CardContainer>
-        </Wrapper>
-    </Container>
-  )
-}
+    </CardContainer2>
+  );
+};
 
 export default Ford

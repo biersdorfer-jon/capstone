@@ -8,17 +8,35 @@ const StyledLibrary = styled.div`
 `;
 
 const TitleContainer = styled.div`
-  width: 40%;
+  width: 70%;
   display: flex;
   justify-content: center;
   align-items: start;
-  margin: 40px;
+  padding-bottom: 10px;
+
+
+  @media (max-width: 900px) {
+    width: 90%;
+  }
+  @media (max-width: 500px) {
+    width: 90%;
+  }
 `;
 
 
 const Title = styled.div`
   font-size: 30px;
   font-weight: 800;
+
+  @media (max-width: 700px) {
+    font-size: 24px;
+    padding-top: 5px;
+  }
+
+  @media (max-width: 560px) {
+    font-size: 20px;
+    padding-top: 8px;
+  }
 `;
 
 

@@ -12,6 +12,8 @@ import HonorsLogo7 from '../../images/H7.png';
 import HonorsLogo8 from '../../images/H8.png';
 
 import { InstagramEmbed } from 'react-social-media-embed';
+import About from './About';
+import CTA from './CTA';
 
 const Container = styled.div`
   padding-top: 160px;
@@ -55,14 +57,16 @@ const TitleContainer = styled.div`
   width: 70%;
   display: flex;
   margin-top: 50px;
-  justify-content: start;
-  align-items: start;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 `;
 
 
 const Title = styled.div`
   font-size: 30px;
   font-weight: 800;
+  padding-bottom: 5px;
 
 `;
 
@@ -82,11 +86,12 @@ const HomeFinal = () => {
   return (
     <Container>
       <ImageSlider images={images} />
-      <TitleContainer>
-    <svg height="45" width="15">
-        <line x1="0" y1="0" x2="0" y2="55" style={{strokeWidth: 7, stroke: '#ba0c2f'}} />
+      <About />
+      <TitleContainer>      
+      <Title>Meet Your Honors Officers</Title>
+      <svg height="45" width="300">
+        <line x1="0" y1="0" x2="300" y2="" style={{strokeWidth: 7, stroke: '#ba0c2f'}} />
       </svg>
-      <Title>2023-2024 RSU Honors Officers</Title>
               
     </TitleContainer>
       <SlideContainer>
@@ -94,6 +99,7 @@ const HomeFinal = () => {
         <Slide />
         <RightWhiteDiv />
       </SlideContainer>
+      <CTA />
       <div style={{ display: 'flex', justifyContent: 'center', paddingBottom: '50px', backgroundColor: 'transparent', marginTop: '500px'}}>
         <InstagramEmbed style={{height: "470px", transform: 'scale(.8)'}} url="https://www.instagram.com/p/C2fqkQjvBEn/" width={328} />
         

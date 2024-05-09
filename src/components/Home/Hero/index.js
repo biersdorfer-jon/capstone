@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import styled from 'styled-components';
+import gsap from 'gsap';
+
 
 const SliderContainer = styled.div`
     position: relative;
@@ -14,7 +16,13 @@ const SliderWrapper = styled.div`
 
 const Slide = styled.img`
     width: 100%;
+    min-height: 400px; /* Fixed height */
+    object-fit: cover; /* Ensure the image covers the entire area */
 `;
+
+
+
+
 
 const Overlay = styled.div`
     position: absolute;
@@ -33,6 +41,7 @@ const Overlay = styled.div`
 const IC = styled.div`
     flex-direction: column;
     width: 100%;
+    opacity: 0;
 
     @media (max-width: 1100px) {
         
@@ -60,15 +69,19 @@ const Memo2 = styled.div`
   letter-spacing: 12px;
   //line-height: .8; /* Adjust the line height to your preference */
 
-  @media (max-width: 768px) {
+  @media (max-width: 1100px) {
     font-size: 25px;
   }
 
-  @media (max-width: 570px) {
+  @media (max-width: 850px) {
     font-size: 20px;
   }
+  @media (max-width: 620px) {
+    font-size: 15px;
+    letter-spacing: 9px;
+}
 
-  @media (max-width: 370px) {
+  @media (max-width: 500px) {
     font-size: 10px;
   }
 
@@ -82,16 +95,21 @@ const Memo3 = styled.div`
     line-height: 1.6; /* Adjust the line height to your preference */
     font-family: 'Yeserva One', sans-serif; /* Applying the specified font */
 
-    @media (max-width: 768px) {
-        font-size: 90px;
+    @media (max-width: 1100px) {
+        font-size: 100px;
     }
 
-    @media (max-width: 570px) {
+    @media (max-width: 850px) {
         font-size: 70px;
     }
 
-    @media (max-width: 370px) {
-        font-size: 35px
+    @media (max-width: 620px) {
+        font-size: 55px;
+    }
+
+    @media (max-width: 500px) {
+        font-size: 35px;
+        padding-top: 10px;
     }
 `;
 
@@ -136,6 +154,18 @@ const ImageSlider = ({ images }) => {
     const [currentSlide, setCurrentSlide] = useState(0);
 
     useEffect(() => {
+
+        const tl = gsap.timeline();
+
+  // Initial state (hidden)
+        tl.set('.hero', { opacity: 0, y: '100%' });
+
+        // Animation to bring the Container in from the left
+        tl.to('.hero', { duration: 2, opacity: 1, y: '0', ease: 'power4.out' });
+
+        // You can adjust the delay according to your needs
+        tl.delay(1.5); // Wait for 1 second after the page fully loads before starting the animation
+
         const slideInterval = setInterval(() => {
             setCurrentSlide((prevSlide) => (prevSlide === images.length - 1 ? 0 : prevSlide + 1));
         }, 7000); // Change the interval according to your preference
@@ -157,8 +187,8 @@ const ImageSlider = ({ images }) => {
                 ))}
             </SliderWrapper>
             <Overlay>
-                <IC>
-            <MemoContainer>
+                <IC className='hero'>
+            <MemoContainer >
                 <Memo2>ROGERS STATE UNIVERSITY</Memo2>
                 <Memo3>Honors Program</Memo3>
             </MemoContainer>

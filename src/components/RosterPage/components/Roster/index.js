@@ -83,7 +83,7 @@ const ToggleButton = styled.div`
 
   @media (max-width: 768px) {
     padding: 6px 8px;
-    border-radius: 4px;
+    font-size: 12px;
   }
 `;
 
@@ -99,6 +99,8 @@ const CardContainer = styled.div`
   gap: 28px;
   flex-wrap: wrap;
 `;
+
+
 
 const Roster = () => {
   const [toggle, setToggle] = useState('all');
